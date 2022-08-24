@@ -1,0 +1,9483 @@
+[
+  {
+    "id": 1,
+    "name": "Cook's Assistant",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Demon Slayer",
+    "difficulty": "Novice",
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Ranged,Magic,Constitution",
+        "amount": 100
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Ranged,Magic,Constitution",
+        "amount": 100
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Ranged,Magic,Constitution",
+        "amount": 100
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Restless Ghost",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 125
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 200
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 200
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 200
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 200
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Gunnar's Ground",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 5
+      }
+    ],
+    "quest_points": 5,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 325
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 200,
+        "minimum_level": 5
+      },{
+        "type": "Claimable",
+        "skills": "Crafting",
+        "amount": 2000,
+        "minimum_level": 42,
+        "source": "Dororan"
+      },{
+        "type": "Claimable",
+        "skills": "Crafting",
+        "amount": 10000,
+        "minimum_level": 72,
+        "source": "Dororan"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Shield of Arrav",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 1000,
+        "minimum_level": 20,
+        "source": "Historian Minas"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Ernest the Chicken",
+    "difficulty": "Novice",
+    "quest_points": 4
+  },
+  {
+    "id": 8,
+    "name": "Vampyre Slayer",
+    "difficulty": "Novice",
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Ranged,Magic,Constitution",
+        "amount": 4825
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Imp Catcher",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 875
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Stolen Hearts",
+    "difficulty": "Novice",
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 250
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Constitution,Ranged,Magic,Prayer,Summoning",
+        "amount": 250
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 250
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "What's Mind is Yours",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Smithing",
+        "level": 5
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 400
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "The Death of Chivalry",
+    "difficulty": "Novice",
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 250
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 250
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 250
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Constitution,Magic,Ranged",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "The Knight's Sword",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Mining",
+        "level": 10
+      },
+      {
+        "skill": "Cooking",
+        "level": 10
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 12725
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Goblin Diplomacy",
+    "difficulty": "Novice",
+    "quest_points": 5,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 200
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Pirate's Treasure",
+    "difficulty": "Novice",
+    "quest_points": 2
+  },
+  {
+    "id": 17,
+    "name": "Dragon Slayer",
+    "difficulty": "Experienced",
+    "qp_requirement": 33,
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 37
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 18650
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 18650
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Druidic Ritual",
+    "difficulty": "Novice",
+    "quest_points": 4,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Lost City",
+    "difficulty": "Experienced",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 31
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 36
+      }
+    ],
+    "quest_points": 3
+  },
+  {
+    "id": 20,
+    "name": "Witch's House",
+    "difficulty": "Intermediate",
+    "quest_points": 4,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 6325
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Merlin's Crystal",
+    "difficulty": "Intermediate",
+    "quest_points": 6,
+    "xp_rewards": [
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 1000,
+        "source": "Historian Minas"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Heroes' Quest",
+    "difficulty": "Experienced",
+    "qp_requirement": 56,
+    "quest_requirements": [
+      6,
+      19,
+      17,
+      21,
+      18
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 53
+      },
+      {
+        "skill": "Fishing",
+        "level": 53
+      },
+      {
+        "skill": "Herblore",
+        "level": 25
+      },
+      {
+        "skill": "Defence",
+        "level": 25
+      },
+      {
+        "skill": "Mining",
+        "level": 50
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 3075
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 3075
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 3075
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 3075
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 2075
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 2725
+      },
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 2825
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 1575
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 1575
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 2257
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 2575
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 1325
+      }
+    ]
+  },
+  {
+    "id": 1000,
+    "name": "Bar Crawl",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": 23,
+    "name": "Scorpion Catcher",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      1000
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 31
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 6625
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Family Crest",
+    "difficulty": "Experienced",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 40
+      },
+      {
+        "skill": "Smithing",
+        "level": 40
+      },
+      {
+        "skill": "Mining",
+        "level": 40
+      },
+      {
+        "skill": "Magic",
+        "level": 59
+      },
+      {
+        "skill": "Cooking",
+        "level": 45
+      },
+      {
+        "skill": "Fishing",
+        "level": 50
+      }
+    ],
+    "quest_points": 1
+  },
+  {
+    "id": 25,
+    "name": "Tribal Totem",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 21
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1775
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Fishing Contest",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Fishing",
+        "level": 10
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 2437
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Monk's Friend",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Temple of Ikov",
+    "difficulty": "Experienced",
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 42
+      },
+      {
+        "skill": "Ranged",
+        "level": 40
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 10500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 8000
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Clock Tower",
+    "difficulty": "Novice",
+    "quest_points": 1
+  },
+  {
+    "id": 30,
+    "name": "Holy Grail",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      21
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Attack",
+        "level": 30
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 11000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 15300
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Tree Gnome Village",
+    "difficulty": "Intermediate",
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 11450
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Fight Arena",
+    "difficulty": "Experienced",
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 12175
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 2175
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Hazeel Cult",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Sheep Herder",
+    "difficulty": "Novice",
+    "quest_points": 4
+  },
+  {
+    "id": 35,
+    "name": "Plague City",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 2425
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Sea Slug",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 30
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 7175
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Waterfall Quest",
+    "difficulty": "Intermediate",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 13750
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 13750
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Biohazard",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      35
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1250
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Jungle Potion",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 3
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 775
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "The Grand Tree",
+    "difficulty": "Experienced",
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 25
+      }
+    ],
+    "quest_points": 5,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 7900
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 2150
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Constitution,Ranged,Magic",
+        "amount": 18400
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Shilo Village",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      39
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 20
+      },
+      {
+        "skill": "Agility",
+        "level": 32
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 3875
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Underground Pass",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      38
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Ranged",
+        "level": 25
+      },
+      {
+        "skill": "Agility",
+        "level": 50
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      },
+      {
+        "skill": "Thieving",
+        "level": 50
+      }
+    ],
+    "quest_points": 5,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 3000
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Observatory Quest",
+    "difficulty": "Novice",
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 2250
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Constitution,Strength",
+        "amount": 875
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "The Tourist Trap",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Fletching",
+        "level": 10
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      }
+    ],
+    "quest_points": 2,
+    "skill_rewards": [
+      {
+        "type": "Choice",
+        "skills": "Agility,Fletching,Smithing,Thieving",
+        "amount": 4650
+      },
+      {
+        "type": "Choice",
+        "skills": "Agility,Fletching,Smithing,Thieving",
+        "amount": 4650
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Watchtower",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 14
+      },
+      {
+        "skill": "Magic",
+        "level": 14
+      },
+      {
+        "skill": "Thieving",
+        "level": 15
+      },
+      {
+        "skill": "Agility",
+        "level": 25
+      },
+      {
+        "skill": "Mining",
+        "level": 40
+      }
+    ],
+    "quest_points": 4,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 15250
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Dwarf Cannon",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 750
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Murder Mystery",
+    "difficulty": "Novice",
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1406
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "The Dig Site",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 25
+      },
+      {
+        "skill": "Agility",
+        "level": 10
+      },
+      {
+        "skill": "Herblore",
+        "level": 10
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 15300
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Gertrude's Cat",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 1525
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Legend's Quest",
+    "difficulty": "Master",
+    "qp_requirement": 107,
+    "quest_requirements": [
+      24,
+      22,
+      41,
+      42,
+      37
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 50
+      },
+      {
+        "skill": "Crafting",
+        "level": 50
+      },
+      {
+        "skill": "Herblore",
+        "level": 45
+      },
+      {
+        "skill": "Mining",
+        "level": 52
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      },
+      {
+        "skill": "Smithing",
+        "level": 50
+      },
+      {
+        "skill": "Strength",
+        "level": 50
+      },
+      {
+        "skill": "Thieving",
+        "level": 50
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 50
+      }
+    ],
+    "combat_requirement": 100,
+    "quest_points": 4,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Constitution,Prayer,Magic,Woodcutting,Crafting,Smithing,Herblore,Agility,Thieving",
+        "amount": 7650
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Constitution,Prayer,Magic,Woodcutting,Crafting,Smithing,Herblore,Agility,Thieving",
+        "amount": 7650
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Constitution,Prayer,Magic,Woodcutting,Crafting,Smithing,Herblore,Agility,Thieving",
+        "amount": 7650
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Constitution,Prayer,Magic,Woodcutting,Crafting,Smithing,Herblore,Agility,Thieving",
+        "amount": 7650
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Rune Mysteries",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 250
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Big Chompy Bird Hunting",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 30
+      },
+      {
+        "skill": "Ranged",
+        "level": 30
+      },
+      {
+        "skill": "Fletching",
+        "level": 5
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 262
+      },
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 1470
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 735
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Elemental Workshop I",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      },
+      {
+        "skill": "Crafting",
+        "level": 20
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Priest in Peril",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 1406
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Nature Spirit",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      54,
+      3
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 18
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Death Plateau",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 100
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 100
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 100
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Troll Stronghold",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      56
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 15
+      },
+      {
+        "skill": "Thieving",
+        "level": 30
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 10000,
+        "minimum_level": 30,
+        "source": "Dunstan"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 10000,
+        "minimum_level": 30,
+        "source": "Dunstan"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Tai Bwo Wannai Trio",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      39
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 15
+      },
+      {
+        "skill": "Fishing",
+        "level": 65
+      },
+      {
+        "skill": "Cooking",
+        "level": 30
+      },
+      {
+        "skill": "Herblore",
+        "level": 34
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 1500
+      },
+      {
+        "type": "Claimable",
+        "skills": "Attack",
+        "amount": 2500,
+        "source": "Tamayu"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Strength",
+        "amount": 2500,
+        "source": "Tamayu"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Cooking",
+        "amount": 5000,
+        "source": "Tinsay"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Fishing",
+        "amount": 5000,
+        "source": "Tiadeche"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Regicide",
+    "difficulty": "Master",
+    "quest_requirements": [
+      42
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 56
+      },
+      {
+        "skill": "Crafting",
+        "level": 10
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 13750
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Eadgar's Ruse",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      18,
+      57
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 31
+      },
+      {
+        "skill": "Agility",
+        "level": 15
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 11000
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Shades of Mort'ton",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 20
+      },
+      {
+        "skill": "Firemaking",
+        "level": 6
+      },
+      {
+        "skill": "Herblore",
+        "level": 15
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 2000
+      },
+      {
+        "type": "Claimable",
+        "skills": "Herblore",
+        "amount": 335,
+        "source": "Apothecary"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "The Fremennik Trials",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 40
+      },
+      {
+        "skill": "Fletching",
+        "level": 25
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 40
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 2812
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 2812
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Horror From the Deep",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      1000
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 35
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 4662
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 4662
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 4662
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Throne of Miscellenia",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      22,
+      62
+    ],
+    "quest_points": 1
+  },
+  {
+    "id": 65,
+    "name": "Monkey Madness",
+    "difficulty": "Master",
+    "quest_requirements": [
+      40,
+      31
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ],
+    "quest_points": 3
+  },
+  {
+    "id": 66,
+    "name": "Haunted Mine",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      54
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 15
+      },
+      {
+        "skill": "Crafting",
+        "level": 35
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 22000
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Troll Romance",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      57
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 28
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 45
+      },
+      {
+        "skill": "Mining",
+        "level": 10
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 8000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "In Search of the Myreque",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      55
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 25
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 600
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 600
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 600
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 600
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 600
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Creature of Fenkenstrain",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      54,
+      3
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 20
+      },
+      {
+        "skill": "Thieving",
+        "level": 25
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Roving Elves",
+    "difficulty": "Master",
+    "quest_requirements": [
+      37,
+      59
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 10000
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Ghosts Ahoy",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      54,
+      3
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 25
+      },
+      {
+        "skill": "Cooking",
+        "level": 20
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 2400
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "One Small Favour",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      51,
+      41,
+      18
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 20
+      },
+      {
+        "skill": "Crafting",
+        "level": 25
+      },
+      {
+        "skill": "Smithing",
+        "level": 30
+      },
+      {
+        "skill": "Agility",
+        "level": 36
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 10000,
+        "minimum_level": 30
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 10000,
+        "minimum_level": 30
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Mountain Daughter",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 20
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Between a Rock...",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      46,
+      26
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Defence",
+        "level": 30
+      },
+      {
+        "skill": "Mining",
+        "level": 40
+      },
+      {
+        "skill": "Smithing",
+        "level": 50
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "The Feud",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 30
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "The Golem",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 20
+      },
+      {
+        "skill": "Thieving",
+        "level": 25
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Desert Treasure",
+    "difficulty": "Master",
+    "quest_requirements": [
+      48,
+      54,
+      28,
+      44,
+      57,
+      37
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 10
+      },
+      {
+        "skill": "Firemaking",
+        "level": 50
+      },
+      {
+        "skill": "Magic",
+        "level": 50
+      },
+      {
+        "skill": "Thieving",
+        "level": 53
+      },
+      {
+        "skill": "Mining",
+        "level": 50
+      },
+      {
+        "skill": "Agility",
+        "level": 47
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Icthlarin's Little Helper",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      187,
+      49
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 4500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 4000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Tears of Guthix",
+    "difficulty": "Intermediate",
+    "qp_requirement": 44,
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 49
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Crafting",
+        "level": 49
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Zogre Flesh Eaters",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      52,
+      39
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 43
+      },
+      {
+        "skill": "Crafting",
+        "level": 20
+      },
+      {
+        "skill": "Strength",
+        "level": 20
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 2000
+      },
+      {
+        "type": "Claimable",
+        "skills": "Prayer",
+        "amount": 420,
+        "source": "burying Ourg bones"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "The Lost Tribe",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      15
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 13
+      },
+      {
+        "skill": "Mining",
+        "level": 17
+      },
+      {
+        "skill": "Thieving",
+        "level": 13
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 3000
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "The Giant Dwarf",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 12
+      },
+      {
+        "skill": "Firemaking",
+        "level": 16
+      },
+      {
+        "skill": "Magic",
+        "level": 33
+      },
+      {
+        "skill": "Thieving",
+        "level": 14
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Recruitment Drive",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 7
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Mourning's End Part I",
+    "difficulty": "Master",
+    "quest_requirements": [
+      52,
+      34,
+      70
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Ranged",
+        "level": 60
+      },
+      {
+        "skill": "Thieving",
+        "level": 50
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 25000
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Forgettable Tale of a Drunken Dwarf",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      82,
+      26
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 22
+      },
+      {
+        "skill": "Farming",
+        "level": 17
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Garden of Tranquility",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      69
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Farming",
+        "level": 25
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "A Tail of Two Cats",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      78
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 50
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 2500,
+        "minimum_level": 30
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 2500,
+        "minimum_level": 30
+      }
+    ]
+  },
+  {
+    "id": 1001,
+    "name": "Enter the Abyss",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      51
+    ],
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Wanted!",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      83,
+      81,
+      54,
+      1001
+    ],
+    "qp_requirement": 33,
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Mourning's End Part II",
+    "difficulty": "Master",
+    "quest_requirements": [
+      84
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Rum Deal",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      54,
+      80
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Farming",
+        "level": 40
+      },
+      {
+        "skill": "Crafting",
+        "level": 42
+      },
+      {
+        "skill": "Prayer",
+        "level": 47
+      },
+      {
+        "skill": "Fishing",
+        "level": 50
+      },
+      {
+        "skill": "Slayer",
+        "level": 42
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 7000
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Shadow of the Storm",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      2,
+      76
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 30
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Constitution,Ranged,Magic",
+        "amount": 10000
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Making History",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      3,
+      54
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 24
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Rat Catchers",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      78
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 4500
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Spirits of the Elid",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 33
+      },
+      {
+        "skill": "Ranged",
+        "level": 37
+      },
+      {
+        "skill": "Mining",
+        "level": 37
+      },
+      {
+        "skill": "Thieving",
+        "level": 37
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 8000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Devious Minds",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      57,
+      88,
+      11,
+      1001
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Runecrafting",
+        "level": 50
+      },
+      {
+        "skill": "Fletching",
+        "level": 50
+      },
+      {
+        "skill": "Smithing",
+        "level": 65
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 6000
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "The Hand in the Sand",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 17
+      },
+      {
+        "skill": "Crafting",
+        "level": 49
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 9000
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Enakhra's Lament",
+    "difficulty": "Experienced",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 50
+      },
+      {
+        "skill": "Firemaking",
+        "level": 45
+      },
+      {
+        "skill": "Magic",
+        "level": 13
+      },
+      {
+        "skill": "Mining",
+        "level": 45
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 7000
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Cabin Fever",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      16,
+      90
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 42
+      },
+      {
+        "skill": "Crafting",
+        "level": 45
+      },
+      {
+        "skill": "Smithing",
+        "level": 50
+      },
+      {
+        "skill": "Ranged",
+        "level": 40
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 7000
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "A Fairy Tale I - Growing Pains",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      39,
+      19,
+      55
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 3500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 2001,
+    "name": "Recipe for Disaster: Another Cook's Quest",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      1
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 10
+      }
+    ],
+    "quest_points": 1
+  },
+  {
+    "id": 2002,
+    "name": "Recipe for Disaster: Freeing the Goblin Generals",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      2001,
+      15
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 2003,
+    "name": "Recipe for Disaster: Freeing the Mountain Dwarf",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      2001,
+      26
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 2004,
+    "name": "Recipe for Disaster: Freeing Evil Dave",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      2001,
+      49,
+      91
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 25
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 7000
+      }
+    ]
+  },
+  {
+    "id": 2005,
+    "name": "Recipe for Disaster: Freeing the Lumbridge Sage",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      2001,
+      52,
+      38,
+      2,
+      47,
+      55,
+      20
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 40
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "id": 2006,
+    "name": "Recipe for Disaster: Freeing Pirate Pete",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      2001
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 31
+      },
+      {
+        "skill": "Crafting",
+        "level": 42
+      },
+      {
+        "skill": "Fishing",
+        "level": 23
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 2007,
+    "name": "Recipe for Disaster: Freeing Skrach Uglogwee",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      2001,
+      52
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 41
+      },
+      {
+        "skill": "Firemaking",
+        "level": 20
+      },
+      {
+        "skill": "Mining",
+        "level": 10
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "id": 2008,
+    "name": "Recipe for Disaster: Freeing Sir Amik Varze",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      2001,
+      19,
+      50
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 4000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "id": 2009,
+    "name": "Recipe for Disaster: Freeing King Awowogei",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      2001,
+      65
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 70
+      },
+      {
+        "skill": "Agility",
+        "level": 48
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 10000
+      }
+    ]
+  },
+  {
+    "id": 2010,
+    "name": "Recipe for Disaster: Defeating the Culinaromancer",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      77,
+      63
+    ],
+    "qp_requirement": 176,
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 20000,
+        "minimum_level": 50
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "In Aid of the Myreque",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      68
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 25
+      },
+      {
+        "skill": "Magic",
+        "level": 7
+      },
+      {
+        "skill": "Mining",
+        "level": 30
+      },
+      {
+        "skill": "Smithing",
+        "level": 30
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "A Soul's Bane",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Rag and Bone Man",
+    "difficulty": "Novice",
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Swan Song",
+    "difficulty": "Master",
+    "quest_requirements": [
+      86,
+      72
+    ],
+    "qp_requirement": 101,
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 66
+      },
+      {
+        "skill": "Cooking",
+        "level": 62
+      },
+      {
+        "skill": "Fishing",
+        "level": 62
+      },
+      {
+        "skill": "Smithing",
+        "level": 45
+      },
+      {
+        "skill": "Firemaking",
+        "level": 42
+      },
+      {
+        "skill": "Crafting",
+        "level": 40
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 10000
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Royal Trouble",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      64
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 40
+      },
+      {
+        "skill": "Slayer",
+        "level": 40
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Death to the Dorgeshuun",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      81
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 23
+      },
+      {
+        "skill": "Agility",
+        "level": 23
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 2000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Defence,Strength,Constitution,Ranged,Magic",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "A Fary Tale II - Cure a Queen",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      99
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 40
+      },
+      {
+        "skill": "Farming",
+        "level": 49
+      },
+      {
+        "skill": "Herblore",
+        "level": 57
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 2500
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Lunar Diplomacy",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      19,
+      62,
+      41
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 61
+      },
+      {
+        "skill": "Defence",
+        "level": 40
+      },
+      {
+        "skill": "Firemaking",
+        "level": 49
+      },
+      {
+        "skill": "Mining",
+        "level": 60
+      },
+      {
+        "skill": "Herblore",
+        "level": 5
+      },
+      {
+        "skill": "Magic",
+        "level": 65
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 55
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "The Eyes of Glouphrie",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      40
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Construction",
+        "level": 5
+      },
+      {
+        "skill": "Magic",
+        "level": 46
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 12000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 6000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "The Darkness of Hallowvale",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      101
+    ],
+    "skill_Requirements": [
+      {
+        "skill": "Construction",
+        "level": 5
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Thieving",
+        "level": 22
+      },
+      {
+        "skill": "Agility",
+        "level": 26
+      },
+      {
+        "skill": "Crafting",
+        "level": 32
+      },
+      {
+        "skill": "Magic",
+        "level": 33
+      },
+      {
+        "skill": "Strength",
+        "level": 40
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 6000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 2000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 2000,
+        "minimum_level": 30,
+        "source": "Veliaf Hurtz"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 2000,
+        "minimum_level": 30,
+        "source": "Veliaf Hurtz"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 2000,
+        "minimum_level": 30,
+        "source": "Veliaf Hurtz"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "The Slug Menace",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      36,
+      88
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 30
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 30
+      },
+      {
+        "skill": "Slayer",
+        "level": 30
+      },
+      {
+        "skill": "Thieving",
+        "level": 30
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 3500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 3500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 3500
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Elemental Workshop II",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      53
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 30
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 7500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 7500
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "My Arm's Big Adventure",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      60,
+      75,
+      39
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Woodcutting",
+        "level": 10
+      },
+      {
+        "skill": "Farming",
+        "level": 29
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Enlightened Journey",
+    "difficulty": "Intermediate",
+    "qp_requirement": 21,
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 20
+      },
+      {
+        "skill": "Farming",
+        "level": 30
+      },
+      {
+        "skill": "Crafting",
+        "level": 36
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 3500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Eagles' Peak",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Hunter",
+        "level": 27
+      },
+      {
+        "skill": "Agility",
+        "level": 25
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Animal Magnetism",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      7,
+      54,
+      3
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 18
+      },
+      {
+        "skill": "Crafting",
+        "level": 19
+      },
+      {
+        "skill": "Ranged",
+        "level": 30
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 35
+      },
+      {
+        "skill": "Thieving",
+        "level": 15
+      },
+      {
+        "skill": "Smithing",
+        "level": 10
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Contact!",
+    "difficulty": "Master",
+    "quest_requirements": [
+      78
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 7000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Constitution,Defence,Ranged,Magic,Summoning",
+        "amount": 7000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Constitution,Defence,Ranged,Magic,Summoning",
+        "amount": 7000
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Cold War",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Hunter",
+        "level": 10
+      },
+      {
+        "skill": "Construction",
+        "level": 34
+      },
+      {
+        "skill": "Crafting",
+        "level": 30
+      },
+      {
+        "skill": "Agility",
+        "level": 30
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 20
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 50
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "The Fremennik Isles",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      62
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Construction",
+        "level": 20
+      },
+      {
+        "skill": "Crafting",
+        "level": 46
+      },
+      {
+        "skill": "Agility",
+        "level": 40
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 56
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      },
+      {
+        "skill": "Defence",
+        "level": 25
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 10000
+      },
+      {
+        "type": "Choice",
+        "skills": "Strength,Attack,Defence,Constitution",
+        "amount": 10000
+      },
+      {
+        "type": "Choice",
+        "skills": "Strength,Attack,Defence,Constitution",
+        "amount": 10000
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Tower of Life",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Construction",
+        "level": 10
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "The Great Brain Robbery",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      69,
+      98,
+      2006
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 16
+      },
+      {
+        "skill": "Construction",
+        "level": 30
+      },
+      {
+        "skill": "Prayer",
+        "level": 50
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 6000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 2000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 5000,
+        "minimum_level": 30,
+        "source": "Brother Tranquility"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "What Lies Below",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Runecrafting",
+        "level": 35
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 8000
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Olaf's Quest",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      62
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 40
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 50
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 12000
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Another Slice of H.A.M.",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      106,
+      48,
+      82
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Attack",
+        "level": 15
+      },
+      {
+        "skill": "Prayer",
+        "level": 25
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 3000
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Dream Mentor",
+    "difficulty": "Master",
+    "quest_requirements": [
+      60,
+      108
+    ],
+    "combat_requirement": 85,
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 15000
+      },
+      {
+        "type": "Choice",
+        "skills": "Strength,Ranged,Magic,Constitution,Defence",
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Grim Tales",
+    "difficulty": "Master",
+    "quest_requirements": [
+      20
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Farming",
+        "level": 45
+      },
+      {
+        "skill": "Herblore",
+        "level": 52
+      },
+      {
+        "skill": "Thieving",
+        "level": 58
+      },
+      {
+        "skill": "Agility",
+        "level": 59
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 71
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 4000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 14000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 6000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 6000
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "King's Ransom",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      30,
+      47,
+      72
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 45
+      },
+      {
+        "skill": "Defence",
+        "level": 65
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 33000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 5000
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "The Path of Glouphrie",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      37,
+      109,
+      31
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Strength",
+        "level": 60
+      },
+      {
+        "skill": "Thieving",
+        "level": 56
+      },
+      {
+        "skill": "Slayer",
+        "level": 56
+      },
+      {
+        "skill": "Ranged",
+        "level": 47
+      },
+      {
+        "skill": "Agility",
+        "level": 45
+      },
+      {
+        "skill": "Fletching",
+        "level": 59
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 30000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Back to my Roots",
+    "difficulty": "Master",
+    "quest_requirements": [
+      99,
+      96,
+      72,
+      25
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 55
+      },
+      {
+        "skill": "Farming",
+        "level": 53
+      },
+      {
+        "skill": "Slayer",
+        "level": 59
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 72
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 24000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 40000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 23000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Land of the Goblins",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      124,
+      26
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 30
+      },
+      {
+        "skill": "Agility",
+        "level": 36
+      },
+      {
+        "skill": "Fishing",
+        "level": 36
+      },
+      {
+        "skill": "Thieving",
+        "level": 36
+      },
+      {
+        "skill": "Herblore",
+        "level": 37
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Dealing with Scabaras",
+    "difficulty": "Master",
+    "quest_requirements": [
+      117,
+      75,
+      80
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 21
+      },
+      {
+        "skill": "Agility",
+        "level": 50
+      },
+      {
+        "skill": "Thieving",
+        "level": 60
+      },
+      {
+        "skill": "Strength",
+        "level": 60
+      },
+      {
+        "skill": "Crafting",
+        "level": 60
+      },
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 7000
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Wolf Whistle",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 276
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "As a First Resort",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      80
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Hunter",
+        "level": 48
+      },
+      {
+        "skill": "Firemaking",
+        "level": 51
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 58
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Catapult Construction",
+    "difficulty": "Master",
+    "quest_requirements": [
+      59
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Fletching",
+        "level": 42
+      },
+      {
+        "skill": "Construction",
+        "level": 44
+      },
+      {
+        "skill": "Smithing",
+        "level": 30
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 50
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Kennith's Concerns",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      111
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Mining",
+        "level": 46
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 12000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Legacy of Seergaze",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      110
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Construction",
+        "level": 20
+      },
+      {
+        "skill": "Agility",
+        "level": 29
+      },
+      {
+        "skill": "Slayer",
+        "level": 31
+      },
+      {
+        "skill": "Mining",
+        "level": 35
+      },
+      {
+        "skill": "Firemaking",
+        "level": 40
+      },
+      {
+        "skill": "Crafting",
+        "level": 47
+      },
+      {
+        "skill": "Magic",
+        "level": 49
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 4000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 2000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 2500,
+        "minimum_level": 35,
+        "source": "Veliaf Hurtz"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 2500,
+        "minimum_level": 35,
+        "source": "Veliaf Hurtz"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 2500,
+        "minimum_level": 35,
+        "source": "Veliaf Hurtz"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Perils of Ice Mountain",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Farming",
+        "level": 5
+      },
+      {
+        "skill": "Hunter",
+        "level": 5
+      },
+      {
+        "skill": "Thieving",
+        "level": 5
+      },
+      {
+        "skill": "Construction",
+        "level": 5
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "TozTz-Ket-Dill",
+    "difficulty": "Experienced",
+    "skill_requirements": [
+      {
+        "skill": "Construction",
+        "level": 50
+      },
+      {
+        "skill": "Strength",
+        "level": 45
+      },
+      {
+        "skill": "Crafting",
+        "level": 43
+      },
+      {
+        "skill": "Mining",
+        "level": 40
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Smoking Kills",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      78,
+      3
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 35
+      },
+      {
+        "skill": "Crafting",
+        "level": 25
+      },
+      {
+        "skill": "Prayer",
+        "level": 40
+      }
+    ],
+    "combat_requirement": 60,
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Rocking Out",
+    "difficulty": "Master",
+    "quest_requirements": [
+      121
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 60
+      },
+      {
+        "skill": "Thieving",
+        "level": 63
+      },
+      {
+        "skill": "Crafting",
+        "level": 66
+      },
+      {
+        "skill": "Smithing",
+        "level": 69
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 25000
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Spirit of Summer",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      3
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Summoning",
+        "level": 19
+      },
+      {
+        "skill": "Farming",
+        "level": 26
+      },
+      {
+        "skill": "Prayer",
+        "level": 35
+      },
+      {
+        "skill": "Construction",
+        "level": 40
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 7500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 1000
+      },
+      {
+        "type": "Claimable",
+        "skills": "Farming",
+        "amount": 15000,
+        "minimum_level": 50,
+        "source": "Spirit Realm portal at Wilderness flower patch"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Attack",
+        "amount": 11250,
+        "minimum_level": 50,
+        "source": "Spirit Realm portal northeast of Ardougne teleport lever"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Prayer",
+        "amount": 15000,
+        "minimum_level": 50,
+        "source": "Spirit Realm portal at Forgotten Cemetary"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Meeting History",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      92
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 3
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 1000,
+        "minimum_level": 25
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 1000,
+        "minimum_level": 25
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 500,
+        "minimum_level": 25
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "All Fired Up",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      54
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 43
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 5500
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Summer's End",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      141
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Summoning",
+        "level": 23
+      },
+      {
+        "skill": "Hunter",
+        "level": 35
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 37
+      },
+      {
+        "skill": "Mining",
+        "level": 45
+      },
+      {
+        "skill": "Firemaking",
+        "level": 47
+      },
+      {
+        "skill": "Prayer",
+        "level": 55
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 15000
+      },
+      {
+        "type": "Claimable",
+        "skills": "Farming",
+        "amount": 7500,
+        "source": "Spirit Realm portal at Summer's farm",
+        "minimum_level": 46
+      },
+      {
+        "type": "Claimable",
+        "skills": "Defence",
+        "amount": 15000,
+        "source": "Spirit Realm portal at Dark Warriors' Fortress",
+        "minimum_level": 80
+      },
+      {
+        "type": "Claimable",
+        "skills": "Prayer",
+        "amount": 7500,
+        "source": "Spirit Realm portal at Chaos Temple",
+        "minimum_level": 50
+      },
+      {
+        "type": "Claimable",
+        "skills": "Thieving",
+        "amount": 15000,
+        "source": "Spirit Realm portal at Rogues' Castle",
+        "minimum_level": 60
+      },
+      {
+        "type": "Claimable",
+        "skills": "Smithing",
+        "amount": 7500,
+        "source": "Spirit Realm portal at ED2 entrance",
+        "minimum_level": 50
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Defender of Varrock",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      2,
+      24,
+      86,
+      14,
+      6,
+      28,
+      122
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 51
+      },
+      {
+        "skill": "Hunter",
+        "level": 51
+      },
+      {
+        "skill": "Smithing",
+        "level": 54
+      },
+      {
+        "skill": "Mining",
+        "level": 59
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 2000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 1000,
+        "source": "Historian Minas"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Swept Away",
+    "difficulty": "Novice",
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Claimable",
+        "skills": "Magic",
+        "amount": 1997,
+        "minimum_level": 33,
+        "source": "enchanting your broomstick with Maysa the Hag"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Magic",
+        "amount": 7139,
+        "minimum_level": 53,
+        "source": "enchanting your broomstick with the Old Crone east of the Slayer Tower"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Magic",
+        "amount": 10338,
+        "minimum_level": 73,
+        "source": "enchanting your broomstick with Baba Yaga"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Magic",
+        "amount": 14979,
+        "minimum_level": 93,
+        "source": "enchanting your broomstick with Kardia in the Underground Pass"
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "The Hunt for Surok",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      88
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 43
+      },
+      {
+        "skill": "Mining",
+        "level": 42
+      }
+    ],
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "name": "While Guthix Sleeps",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      145,
+      125,
+      96,
+      127,
+      50,
+      128,
+      79,
+      88,
+      1002
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 25
+      },
+      {
+        "skill": "Summoning",
+        "level": 23
+      },
+      {
+        "skill": "Hunter",
+        "level": 55
+      },
+      {
+        "skill": "Thieving",
+        "level": 60
+      },
+      {
+        "skill": "Defence",
+        "level": 65
+      },
+      {
+        "skill": "Farming",
+        "level": 65
+      },
+      {
+        "skill": "Herblore",
+        "level": 65
+      },
+      {
+        "skill": "Magic",
+        "level": 75
+      }
+    ],
+    "quest_points": 5,
+    "xp_rewards": [
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 65,
+        "source": "Idria"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 65,
+        "source": "Idria"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 65,
+        "source": "Idria"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 65,
+        "source": "Idria"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Myths of the White Lands",
+    "difficulty": "Novice",
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 500
+      },
+      {
+        "type": "Claimable",
+        "skills": "Crafting",
+        "amount": 2000,
+        "minimum_level": 30,
+        "source": "Second cavern of White Lands maze"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Agility",
+        "amount": 10000,
+        "minimum_level": 55,
+        "source": "Fourth cavern of White Lands maze"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Woodcutting",
+        "amount": 20000,
+        "minimum_level": 80,
+        "source": "Sixth cavern of White Lands maze"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "In Pyre Need",
+    "difficulty": "Experienced",
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 55
+      },
+      {
+        "skill": "Crafting",
+        "level": 52
+      },
+      {
+        "skill": "Fletching",
+        "level": 53
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 14400
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 12500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 11556
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "The Chosen Commander",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      130
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 46
+      },
+      {
+        "skill": "Strength",
+        "level": 46
+      },
+      {
+        "skill": "Thieving",
+        "level": 46
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Glorious Memories",
+    "difficulty": "Master",
+    "quest_requirements": [
+      105,
+      113,
+      73
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 57
+      },
+      {
+        "skill": "Agility",
+        "level": 50
+      },
+      {
+        "skill": "Herblore",
+        "level": 43
+      },
+      {
+        "skill": "Hunter",
+        "level": 41
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 5000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Constitution,Defence,Ranged",
+        "amount": 5000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Constitution,Defence,Ranged",
+        "amount": 5000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Constitution,Defence,Ranged",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "The Tale of the Muspah",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 6
+      },
+      {
+        "skill": "Mining",
+        "level": 8
+      },
+      {
+        "skill": "Magic",
+        "level": 10
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 10
+      },
+      {
+        "skill": "Crafting",
+        "level": 20
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 800
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 800
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 500
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 200,
+        "minimum_level": 10,
+        "source": "the natural historian at the Rellekka Hunter area"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Missing My Mummy",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      76,
+      78
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Construction",
+        "level": 35
+      },
+      {
+        "skill": "Cooking",
+        "level": 35
+      },
+      {
+        "skill": "Crafting",
+        "level": 35
+      },
+      {
+        "skill": "Magic",
+        "level": 35
+      },
+      {
+        "skill": "Prayer",
+        "level": 35
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 7000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 2100
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 2100
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "name": "Fully Restore Senliten",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      153
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 25
+      },
+      {
+        "skill": "Crafting",
+        "level": 45
+      },
+      {
+        "skill": "Prayer",
+        "level": 45
+      },
+      {
+        "skill": "Magic",
+        "level": 50
+      }
+    ],
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 3200
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 6500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 3350
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 3000
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "name": "The Hunt for Red Raktuber",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      118,
+      36
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 38
+      },
+      {
+        "skill": "Construction",
+        "level": 45
+      },
+      {
+        "skill": "Hunter",
+        "level": 45
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 3000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 2000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "The Curse of Arrav",
+    "difficulty": "Master",
+    "quest_requirements": [
+      145,
+      61,
+      152,
+      67,
+      1003
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 37
+      },
+      {
+        "skill": "Summoning",
+        "level": 41
+      },
+      {
+        "skill": "Agility",
+        "level": 61
+      },
+      {
+        "skill": "Ranged",
+        "level": 64
+      },
+      {
+        "skill": "Strength",
+        "level": 64
+      },
+      {
+        "skill": "Mining",
+        "level": 64
+      },
+      {
+        "skill": "Thieving",
+        "level": 66
+      },
+      {
+        "skill": "Fletching",
+        "level": 59
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 30000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 14000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 9000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 9000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 9000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 4000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Fur 'n Seek",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      103
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 25
+      }
+    ],
+    "combat_requirement": 50,
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Forgiveness of a Chaos Dwarf",
+    "difficulty": "Master",
+    "quest_requirements": [
+      85,
+      74
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Hunter",
+        "level": 61
+      },
+      {
+        "skill": "Firemaking",
+        "level": 61
+      },
+      {
+        "skill": "Strength",
+        "level": 69
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 30000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 30000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 30000
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Within the Light",
+    "difficulty": "Master",
+    "quest_requirements": [
+      89
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 69
+      },
+      {
+        "skill": "Fletching",
+        "level": 70
+      },
+      {
+        "skill": "Ranged",
+        "level": 75
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 75
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 35000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "name": "The Temple at Senntisten",
+    "difficulty": "Master",
+    "quest_requirements": [
+      77,
+      95,
+      155
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 50
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 10000
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 23000,
+        "minimum_level": 50
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Defence,Strength,Constitution,Magic,Ranged,Summoning",
+        "amount": 20000,
+        "minimum_level": 50,
+        "source": "Azzanadra in the Temple of Senntisten"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Defence,Strength,Constitution,Magic,Ranged,Summoning",
+        "amount": 20000,
+        "minimum_level": 50,
+        "source": "Azzanadra in the Temple of Senntisten"
+      }
+    ]
+  },
+  {
+    "id": 3001,
+    "name": "Easy Fremennik Tasks",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 10
+      }
+    ],
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 5000,
+        "minimum_level": 30
+      }
+    ]
+  },
+  {
+    "id": 3002,
+    "name": "Medium Fremennik Tasks",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      62,
+      119,
+      86,
+      107
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Hunter",
+        "level": 55
+      },
+      {
+        "skill": "Cooking",
+        "level": 48
+      },
+      {
+        "skill": "Thieving",
+        "level": 42
+      },
+      {
+        "skill": "Crafting",
+        "level": 33
+      },
+      {
+        "skill": "Defence",
+        "level": 20
+      }
+    ],
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 10000,
+        "minimum_level": 40
+      }
+    ]
+  },
+  {
+    "id": 3003,
+    "name": "Hard Fremennik Tasks",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      1000,
+      108,
+      105,
+      62
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 65
+      },
+      {
+        "skill": "Mining",
+        "level": 60
+      },
+      {
+        "skill": "Fishing",
+        "level": 55
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 54
+      },
+      {
+        "skill": "Crafting",
+        "level": 52
+      },
+      {
+        "skill": "Firemaking",
+        "level": 52
+      },
+      {
+        "skill": "Defence",
+        "level": 50
+      },
+      {
+        "skill": "Strength",
+        "level": 35
+      },
+      {
+        "skill": "Agility",
+        "level": 35
+      }
+    ],
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 15000,
+        "minimum_level": 50
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Blood Runs Deep",
+    "difficulty": "Master",
+    "quest_requirements": [
+      125,
+      151,
+      63,
+      3001,
+      3002,
+      3003
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Attack",
+        "level": 75
+      },
+      {
+        "skill": "Strength",
+        "level": 75
+      },
+      {
+        "skill": "Slayer",
+        "level": 65
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Defence,Strength,Constitution,Ranged,Magic,Prayer",
+        "amount": 150000,
+        "minimum_level": 75,
+        "source": "Chieftain Brundt"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Defence,Strength,Constitution,Ranged,Magic,Prayer",
+        "amount": 150000,
+        "minimum_level": 75,
+        "source": "Chieftain Brundt"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Defence,Strength,Constitution,Ranged,Magic,Prayer",
+        "amount": 150000,
+        "minimum_level": 75,
+        "source": "Chieftain Brundt"
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "name": "Knight Waves Training Ground",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      127
+    ],
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Nomad's Requiem",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      127,
+      1004
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 75
+      },
+      {
+        "skill": "Prayer",
+        "level": 70
+      },
+      {
+        "skill": "Mining",
+        "level": 66
+      },
+      {
+        "skill": "Hunter",
+        "level": 65
+      },
+      {
+        "skill": "Construction",
+        "level": 60
+      },
+      {
+        "skill": "Constitution",
+        "level": 76
+      }
+    ],
+    "quest_points": 3
+  },
+  {
+    "id": 162,
+    "name": "Rune Mechanics",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 27
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 20
+      },
+      {
+        "skill": "Construction",
+        "level": 25
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 900
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 2300
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 1850
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "name": "The Blood Pact",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 100
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 100
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 100
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 100
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 100
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Buyers and Cellars",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 5
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1025
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "name": "A Fairy Tale III - Battle at Ork's Rift",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      107
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 59
+      },
+      {
+        "skill": "Farming",
+        "level": 54
+      },
+      {
+        "skill": "Thieving",
+        "level": 51
+      },
+      {
+        "skill": "Summoning",
+        "level": 37
+      },
+      {
+        "skill": "Crafting",
+        "level": 36
+      },
+      {
+        "skill": "Prayer",
+        "level": 37
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 11000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 11000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 11000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 1000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Elemental Workshop III",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      112
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Defence",
+        "level": 33
+      },
+      {
+        "skill": "Mining",
+        "level": 20
+      },
+      {
+        "skill": "Smithing",
+        "level": 33
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 9000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 8500
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Quiet Before the Swarm",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      9,
+      88
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Attack",
+        "level": 35
+      },
+      {
+        "skill": "Strength",
+        "level": 42
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 4000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 4900
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Love Story",
+    "difficulty": "Master",
+    "quest_requirements": [
+      104,
+      2008
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 77
+      },
+      {
+        "skill": "Construction",
+        "level": 68
+      },
+      {
+        "skill": "Smithing",
+        "level": 68
+      },
+      {
+        "skill": "Crafting",
+        "level": 67
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 40000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 40000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 10000,
+        "minimum_level": 60,
+        "source": "returning Mabel's ring"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "name": "A Void Dance",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      167,
+      18
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Hunter",
+        "level": 46
+      },
+      {
+        "skill": "Construction",
+        "level": 47
+      },
+      {
+        "skill": "Mining",
+        "level": 47
+      },
+      {
+        "skill": "Summoning",
+        "level": 48
+      },
+      {
+        "skill": "Herblore",
+        "level": 49
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 52
+      },
+      {
+        "skill": "Thieving",
+        "level": 54
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 8000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 8000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "name": "The Void Stares Back",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      169
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 80
+      },
+      {
+        "skill": "Attack",
+        "level": 78
+      },
+      {
+        "skill": "Strength",
+        "level": 78
+      },
+      {
+        "skill": "Firemaking",
+        "level": 71
+      },
+      {
+        "skill": "Construction",
+        "level": 70
+      },
+      {
+        "skill": "Crafting",
+        "level": 70
+      },
+      {
+        "skill": "Smithing",
+        "level": 70
+      },
+      {
+        "skill": "Summoning",
+        "level": 55
+      },
+      {
+        "skill": "Defence",
+        "level": 25
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 20000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,defence,Magic,Ranged,Summoning,Prayer",
+        "amount": 50000,
+        "source": "Bank"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,defence,Magic,Ranged,Summoning,Prayer",
+        "amount": 50000,
+        "source": "Bank"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Do No Evil",
+    "difficulty": "Master",
+    "quest_requirements": [
+      116,
+      131,
+      77,
+      153,
+      91,
+      139,
+      2009,
+      1003
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Ranged",
+        "level": 50
+      },
+      {
+        "skill": "Construction",
+        "level": 64
+      },
+      {
+        "skill": "Crafting",
+        "level": 68
+      },
+      {
+        "skill": "Magic",
+        "level": 70
+      },
+      {
+        "skill": "Thieving",
+        "level": 70
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 40000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 30000
+      },
+      {
+        "type": "Claimable",
+        "skills": "Agility",
+        "amount": 20000,
+        "minimum_level": 80,
+        "source": "Apmeken's treasure room"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "name": "King of the Dwarves",
+    "difficulty": "Master",
+    "quest_requirements": [
+      157,
+      113
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Mining",
+        "level": 68
+      },
+      {
+        "skill": "Smithing",
+        "level": 70
+      },
+      {
+        "skill": "Strength",
+        "level": 77
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 45000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 55000
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "name": "The Prisoner of Glouphrie",
+    "difficulty": "Master",
+    "quest_requirements": [
+      128,
+      70
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 64
+      },
+      {
+        "skill": "Construction",
+        "level": 62
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 61
+      },
+      {
+        "skill": "Thieving",
+        "level": 64
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 60000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 60000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 45000
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Elemental Workshop IV",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      166
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 41
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 39
+      },
+      {
+        "skill": "Thieving",
+        "level": 41
+      },
+      {
+        "skill": "Defence",
+        "level": 40
+      },
+      {
+        "skill": "Smithing",
+        "level": 42
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 9000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 7500
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "name": "A Clockwork Syringe",
+    "difficulty": "Master",
+    "quest_requirements": [
+      140
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Dungeoneering",
+        "level": 50
+      },
+      {
+        "skill": "Slayer",
+        "level": 61
+      },
+      {
+        "skill": "Construction",
+        "level": 62
+      },
+      {
+        "skill": "Summoning",
+        "level": 65
+      },
+      {
+        "skill": "Smithing",
+        "level": 74
+      },
+      {
+        "skill": "Thieving",
+        "level": 74
+      },
+      {
+        "skill": "Defence",
+        "level": 76
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 19000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 18000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 18000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 11250
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 11000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Dungeoneering",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Deadliest Catch",
+    "difficulty": "Master",
+    "quest_requirements": [
+      120
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 3
+      },
+      {
+        "skill": "Hunter",
+        "level": 67
+      },
+      {
+        "skill": "Thieving",
+        "level": 70
+      },
+      {
+        "skill": "Fishing",
+        "level": 70
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 70000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 26000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 8000
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Salt in the Wound",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      135
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Defence",
+        "level": 60
+      },
+      {
+        "skill": "Constitution",
+        "level": 50
+      },
+      {
+        "skill": "Herblore",
+        "level": 47
+      },
+      {
+        "skill": "Summoning",
+        "level": 45
+      },
+      {
+        "skill": "Dungeoneering",
+        "level": 35
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 45000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 17500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 12500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Dungeoneering",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "name": "The Branches of Darkmeyer",
+    "difficulty": "Master",
+    "quest_requirements": [
+      136,
+      50
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Woodcutting",
+        "level": 76
+      },
+      {
+        "skill": "Fletching",
+        "level": 70
+      },
+      {
+        "skill": "Magic",
+        "level": 70
+      },
+      {
+        "skill": "Slayer",
+        "level": 67
+      },
+      {
+        "skill": "Crafting",
+        "level": 64
+      },
+      {
+        "skill": "Farming",
+        "level": 63
+      },
+      {
+        "skill": "Agility",
+        "level": 63
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 40000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 35000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 50000,
+        "minimum_level": 60,
+        "source": "Veliaf Hurtz"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 50000,
+        "minimum_level": 60,
+        "source": "Veliaf Hurtz"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 50000,
+        "minimum_level": 60,
+        "source": "Veliaf Hurtz"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Ritual of the Mahjarrat",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      97,
+      165,
+      32,
+      33,
+      140,
+      111,
+      87,
+      159,
+      147
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 76
+      },
+      {
+        "skill": "Agility",
+        "level": 77
+      },
+      {
+        "skill": "Mining",
+        "level": 76
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 110000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 40000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 40000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 80000,
+        "minimum_level": 72,
+        "source": "Sir Tiffy"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 80000,
+        "minimum_level": 72,
+        "source": "Sir Tiffy"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 80000,
+        "minimum_level": 72,
+        "source": "Sir Tiffy"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Prayer",
+        "amount": 3000,
+        "source": "Arrav at the Ritual Plateau"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "name": "One Piecring Note",
+    "difficulty": "Novice",
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 250
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "name": "The Firemaker's Curse",
+    "difficulty": "Master",
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 74
+      },
+      {
+        "skill": "Constitution",
+        "level": 76
+      },
+      {
+        "skill": "Agility",
+        "level": 64
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 80000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 30000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 76000
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Let Them Eat Pie",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 100
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 150
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "name": "The Elder Kiln",
+    "difficulty": "Master",
+    "skill_requirements": [
+      {
+        "skill": "Magic",
+        "level": 75
+      },
+      {
+        "skill": "Agility",
+        "level": 60
+      },
+      {
+        "skill": "Mining",
+        "level": 40
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 30000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Magic,Ranged",
+        "amount": 100000,
+        "minimum_level": 75,
+        "source": "TzHaar-Mej-Jeh"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Song From the Depths",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 700
+      },
+      {
+        "type": "Claimable",
+        "skills": "Constitution",
+        "amount": 5000,
+        "minimum_level": 50,
+        "source": "Song from the Depths cave"
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 25000,
+        "minimum_level": 80,
+        "source": "Song from the Depths cave"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Carnillean Rising",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      163,
+      33
+    ],
+    "qp_requirement": 50,
+    "skill_requirements": [
+      {
+        "skill": "Thieving",
+        "level": 33
+      },
+      {
+        "skill": "Construction",
+        "level": 31
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 2500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 2500
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 1500,
+        "minimum_level": 30,
+        "source": "Chest in the Carnillean mansion"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 1500,
+        "minimum_level": 30,
+        "source": "Chest in the Carnillean mansion"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 2000,
+        "minimum_level": 30,
+        "source": "Philipe Carnilean"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Some Like It Cold",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      154
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Fishing",
+        "level": 65
+      },
+      {
+        "skill": "Crafting",
+        "level": 56
+      },
+      {
+        "skill": "Construction",
+        "level": 50
+      },
+      {
+        "skill": "Thieving",
+        "level": 50
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 40000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 40000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 10000
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Diamond in the Rough",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      10
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 250
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 250
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 250
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Constitution,Magic,Ranged,Prayer",
+        "amount": 250
+      },
+      {
+        "type": "Claimable",
+        "skills": "Mining",
+        "amount": 20000,
+        "minimum_level": 80,
+        "source": "Scabaras treasure room"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Rune Memories",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      51
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 300
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "name": "The Brink of Extinction",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      183
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Defence",
+        "level": 80
+      },
+      {
+        "skill": "Smithing",
+        "level": 80
+      },
+      {
+        "skill": "Mining",
+        "level": 72
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 100000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Ranged,Magic",
+        "amount": 275000,
+        "minimum_level": 80,
+        "source": "TzHaar-Mej-Jeh"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "name": "The World Wakes",
+    "difficulty": "Grandmaster",
+    "combat_requirement": 100,
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Claimable",
+        "skills": "Prayer",
+        "amount": 250000,
+        "minimum_level": 80,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Slayer",
+        "amount": 110000,
+        "minimum_level": 70,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 75,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 75,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 75,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Ranged,Magic,Summoning,Constitution",
+        "amount": 50000,
+        "minimum_level": 65,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Ranged,Magic,Summoning,Constitution",
+        "amount": 50000,
+        "minimum_level": 65,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Ranged,Magic,Summoning,Constitution",
+        "amount": 50000,
+        "minimum_level": 65,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Ranged,Magic,Summoning,Constitution",
+        "amount": 50000,
+        "minimum_level": 65,
+        "source": "High Druid in Guthix's Shrine"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Firemaking",
+        "amount": 50000,
+        "minimum_level": 74,
+        "source": "lighting the torches in Guthix's Shrine"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Bringing Home the Bacon",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Farming",
+        "level": 14
+      },
+      {
+        "skill": "Summoning",
+        "level": 14
+      },
+      {
+        "skill": "Construction",
+        "level": 14
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 350
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 350
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 350
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Birthright of the Dwarves",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      172
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Mining",
+        "level": 80
+      },
+      {
+        "skill": "Smithing",
+        "level": 82
+      },
+      {
+        "skill": "Strength",
+        "level": 85
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 100000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 100000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 100000
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Missing, Presumed Death",
+    "difficulty": "Novice",
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 1000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Constitution,Magic,Ranged",
+        "amount": 1500
+      },
+      {
+        "type": "Claimable",
+        "skills": "Constitution",
+        "amount": 50000,
+        "minimum_level": 75,
+        "source": "Statue of Death on the Empyrean Citadel"
+      },
+      {
+        "type": "Claimable",
+        "skills": "All",
+        "amount": 30000,
+        "minimum_level": 75,
+        "source": "Statue of Death on the Empyrean Citadel"
+      },
+      {
+        "type": "Claimable",
+        "skills": "Thieving",
+        "amount": 50000,
+        "minimum_level": 75,
+        "source": "Statue of Death on the Empyrean Citadel"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "name": "One of a Kind",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      87,
+      190,
+      127,
+      193
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Divination",
+        "level": 40
+      },
+      {
+        "skill": "Dungeoneering",
+        "level": 67
+      },
+      {
+        "skill": "Summoning",
+        "level": 74
+      },
+      {
+        "skill": "Magic",
+        "level": 81
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 90000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 80000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Dungeoneering",
+        "amount": 45000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Fate of the Gods",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      193
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Summoning",
+        "level": 67
+      },
+      {
+        "skill": "Agility",
+        "level": 73
+      },
+      {
+        "skill": "Divination",
+        "level": 75
+      },
+      {
+        "skill": "Slayer",
+        "level": 76
+      },
+      {
+        "skill": "Magic",
+        "level": 79
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 125000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 100000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 100000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 75000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 50000
+      },
+      {
+        "type": "Claimable",
+        "skills": "Divination",
+        "amount": 200000,
+        "source": "Placing The Measure and collecting Elder Chronicles"
+      }
+    ]
+  },
+  {
+    "id": 4001,
+    "name": "Experience the Fate of the Gods",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      195,
+      159
+    ],
+    "xp_requirements": [
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Constitution,Ranged,Magic",
+        "amount": 75000,
+        "minimum_level": 80,
+        "source": "Azzanadra in the Temple of Senntisten"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Constitution,Ranged,Magic",
+        "amount": 75000,
+        "minimum_level": 80,
+        "source": "Azzanadra in the Temple of Senntisten"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Constitution,Ranged,Magic",
+        "amount": 75000,
+        "minimum_level": 80,
+        "source": "Azzanadra in the Temple of Senntisten"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "name": "A Shadow Over Ashdale",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 300
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 300
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 300
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution",
+        "amount": 300
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "name": "The Mighty Fall",
+    "difficulty": "Master",
+    "quest_requirements": [
+      193,
+      150,
+      113,
+      1002
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 69
+      },
+      {
+        "skill": "Defence",
+        "level": 72
+      },
+      {
+        "skill": "Constitution",
+        "level": 78
+      },
+      {
+        "skill": "Attack",
+        "level": 79
+      },
+      {
+        "skill": "Strength",
+        "level": 79
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Attack",
+        "amount": 80000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Strength",
+        "amount": 80000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Constitution,Ranged,Magic,Prayer,Summoning,Slayer",
+        "amount": 75000,
+        "minimum_level": 79,
+        "source": "Zarador"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Strength,Defence,Constitution,Ranged,Magic,Prayer,Summoning,Slayer",
+        "amount": 50000,
+        "minimum_level": 69,
+        "source": "Zarador"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Plague's End",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      92,
+      134,
+      158
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 75
+      },
+      {
+        "skill": "Construction",
+        "level": 75
+      },
+      {
+        "skill": "Crafting",
+        "level": 75
+      },
+      {
+        "skill": "Dungeoneering",
+        "level": 75
+      },
+      {
+        "skill": "Herblore",
+        "level": 75
+      },
+      {
+        "skill": "Mining",
+        "level": 75
+      },
+      {
+        "skill": "Prayer",
+        "level": 75
+      },
+      {
+        "skill": "Ranged",
+        "level": 75
+      },
+      {
+        "skill": "Summoning",
+        "level": 75
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 75
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Dungeoneering",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Summoning",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 50000
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Broken Home",
+    "difficulty": "Novice",
+    "quest_points": 1
+  },
+  {
+    "id": 200,
+    "name": "Heart of Stone",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      185,
+      188
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Runecrafting",
+        "level": 25
+      },
+      {
+        "skill": "Magic",
+        "level": 25
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 1500
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Ranged,Magic,Constitution,Prayer,Summoning",
+        "amount": 500,
+        "minimum_level": 20
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Ranged,Magic,Constitution,Prayer,Summoning",
+        "amount": 500,
+        "minimum_level": 20
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Dishonour Among Thieves",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      33,
+      54,
+      193
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 30
+      },
+      {
+        "skill": "Thieving",
+        "level": 30
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 1500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Dungeoneering",
+        "amount": 500
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Magic,Ranged,Constitution",
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "id": 2101,
+    "name": "Dimension of Disaster: Coin of the Realm",
+    "difficulty": "Novice",
+    "quest_points": 1
+  },
+  {
+    "id": 2102,
+    "name": "Dimension of Disaster: Shield of Arrav",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      2101,
+      6
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 100
+      }
+    ]
+  },
+  {
+    "id": 2103,
+    "name": "Dimension of Disaster: Demon Slayer",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      2101,
+      91
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "id": 2104,
+    "name": "Dimension of Disaster: Defender of Varrock",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      2101,
+      145
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Defence",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 2000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Magic,Ranged",
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "id": 2105,
+    "name": "Dimension of Disaster: Curse of Arrav",
+    "difficulty": "Master",
+    "quest_requirements": [
+      2102,
+      2103,
+      2104,
+      155
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 61
+      },
+      {
+        "skill": "Strength",
+        "level": 64
+      },
+      {
+        "skill": "Ranged",
+        "level": 64
+      },
+      {
+        "skill": "Crafting",
+        "level": 64
+      },
+      {
+        "skill": "Smithing",
+        "level": 40
+      },
+      {
+        "skill": "Magic",
+        "level": 57
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 14000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Ranged",
+        "amount": 9000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 9000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 9000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Farming",
+        "amount": 4000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 2500
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Magic,Ranged",
+        "amount": 30000
+      }
+    ]
+  },
+  {
+    "id": 2100,
+    "name": "Dimension of Disaster",
+    "difficulty": "Special",
+    "quest_requirements": [
+      2105
+    ],
+    "quest_points": 2
+  },
+  {
+    "id": 1005,
+    "name": "Barbarian Training",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      58
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Firemaking",
+        "level": 35
+      },
+      {
+        "skill": "Crafting",
+        "level": 35
+      },
+      {
+        "skill": "Fishing",
+        "level": 55
+      },
+      {
+        "skill": "Agility",
+        "level": 15
+      },
+      {
+        "skill": "Strength",
+        "level": 35
+      },
+      {
+        "skill": "Smithing",
+        "level": 5
+      },
+      {
+        "skill": "Herblore",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Hero's Welcome",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      108,
+      58,
+      1005
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Divination",
+        "level": 60
+      },
+      {
+        "skill": "Mining",
+        "level": 67
+      },
+      {
+        "skill": "Slayer",
+        "level": 62
+      },
+      {
+        "skill": "Smithing",
+        "level": 67
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 10000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 10000
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "name": "The Light Within",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      195,
+      142,
+      198,
+      159,
+      190,
+      133
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 80
+      },
+      {
+        "skill": "Crafting",
+        "level": 89
+      },
+      {
+        "skill": "Divination",
+        "level": 80
+      },
+      {
+        "skill": "Herblore",
+        "level": 80
+      },
+      {
+        "skill": "Prayer",
+        "level": 80
+      },
+      {
+        "skill": "Slayer",
+        "level": 80
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 80
+      },
+      {
+        "skill": "Mining",
+        "level": 81
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 90000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 90000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 90000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Prayer",
+        "amount": 90000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 90000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 90000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 90000
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "name": "The Lord of Vampyrium",
+    "difficulty": "Master",
+    "quest_requirements": [
+      176
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Attack",
+        "level": 75
+      },
+      {
+        "skill": "Defence",
+        "level": 75
+      },
+      {
+        "skill": "Strength",
+        "level": 75
+      },
+      {
+        "skill": "Constitution",
+        "level": 75
+      },
+      {
+        "skill": "Construction",
+        "level": 79
+      },
+      {
+        "skill": "Slayer",
+        "level": 78
+      },
+      {
+        "skill": "Hunter",
+        "level": 76
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 75000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 50000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 75000,
+        "minimum_level": 75,
+        "source": "Ivan Strom in Paterdomus Temple"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 75000,
+        "minimum_level": 75,
+        "source": "Ivan Strom in Paterdomus Temple"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 75000,
+        "minimum_level": 75,
+        "source": "Ivan Strom in Paterdomus Temple"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Call of the Ancestors",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xprewards": [
+      {
+        "type": "Claimable",
+        "skills": "Magic",
+        "amount": 1000,
+        "minimum_level": 10,
+        "source": "Acca Kanatah"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Beneath Cursed Tides",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Attack",
+        "level": 30
+      },
+      {
+        "skill": "Strength",
+        "level": 30
+      },
+      {
+        "skill": "Magic",
+        "level": 30
+      },
+      {
+        "skill": "Mining",
+        "level": 30
+      },
+      {
+        "skill": "Smithing",
+        "level": 30
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 30
+      },
+      {
+        "skill": "Firemaking",
+        "level": 30
+      },
+      {
+        "skill": "Cooking",
+        "level": 30
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 5000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 5000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "Attack,Constitution,Strength,Defence,Ranged,Prayer,Magic,Herblore,Slayer,Summoning",
+        "amount": 10000,
+        "minimum_level": 10,
+        "source": "Wizard Myrtle"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Nomad's Elegy",
+    "difficulty": "Master",
+    "quest_requirements": [
+      201,
+      200,
+      197,
+      64,
+      161,
+      170
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Mining",
+        "level": 75
+      },
+      {
+        "skill": "Construction",
+        "level": 75
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 75
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Constitution,Attack,Strength,Defence,Magic,Ranged",
+        "amount": 50000
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "name": "River of Blood",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      205,
+      145,
+      143
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 80
+      },
+      {
+        "skill": "Constitution",
+        "level": 80
+      },
+      {
+        "skill": "Attack",
+        "level": 78
+      },
+      {
+        "skill": "Ranged",
+        "level": 78
+      },
+      {
+        "skill": "Magic",
+        "level": 78
+      },
+      {
+        "skill": "Firemaking",
+        "level": 76
+      },
+      {
+        "skill": "Fletching",
+        "level": 75
+      },
+      {
+        "skill": "Mining",
+        "level": 72
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 75000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Fletching",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Mining",
+        "amount": 50000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 75000,
+        "minimum_level": 75,
+        "source": "King Roald"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 75000,
+        "minimum_level": 75,
+        "source": "King Roald"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 75000,
+        "minimum_level": 75,
+        "source": "King Roald"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Kindred Spirits",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      193
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 60
+      },
+      {
+        "skill": "Crafting",
+        "level": 60
+      },
+      {
+        "skill": "Herblore",
+        "level": 60
+      },
+      {
+        "skill": "Smithing",
+        "level": 60
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Crafting",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Smithing",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 25000
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Gower Quest",
+    "difficulty": "Experienced",
+    "qp_requirement": 34,
+    "quest_points": 1
+  },
+  {
+    "id": 212,
+    "name": "Impressing the Locals",
+    "difficulty": "Novice",
+    "quest_points": 1
+  },
+  {
+    "id": 213,
+    "name": "Children of Mah",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      201,
+      204
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 100000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 100000
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 75,
+        "source": "Karshai"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 75,
+        "source": "Karshai"
+      },
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 100000,
+        "minimum_level": 75,
+        "source": "Karshai"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Sliske's Endgame",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      12,
+      213,
+      203,
+      210,
+      208,
+      194
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 250000,
+        "minimum_level": 85,
+        "source": "Relomia"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Back to the Freezer",
+    "difficulty": "Master",
+    "quest_requirements": [
+      7,
+      186
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 37
+      },
+      {
+        "skill": "Runecrafting",
+        "level": 45
+      },
+      {
+        "skill": "Divination",
+        "level": 50
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Runecrafting",
+        "amount": 25000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 15000
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "name": "The Jack of Spades",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      187
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Dungeoneering",
+        "amount": 500
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Crocodile Tears",
+    "difficulty": "Master",
+    "quest_requirements": [
+      131,
+      216,
+      153,
+      94
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Hunter",
+        "level": 73
+      },
+      {
+        "skill": "Fishing",
+        "level": 72
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 47
+      },
+      {
+        "skill": "Agility",
+        "level": 30
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Fishing",
+        "amount": 35000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Hunter",
+        "amount": 35000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Woodcutting",
+        "amount": 15000
+      },
+      {
+        "type": "Claimable",
+        "skills": "Constitution",
+        "amount": 20000,
+        "minimum_level": 80,
+        "source": "Crondis tomb"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Our Man in the North",
+    "difficulty": "Master",
+    "quest_requirements": [
+      171,
+      217
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Claimable",
+        "skills": "Strength",
+        "amount": 20000,
+        "minimum_level": 80,
+        "source": "Het tomb"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "name": "'Phite Club",
+    "difficulty": "Master",
+    "quest_requirements": [
+      218
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Prayer",
+        "level": 43
+      }
+    ],
+    "quest_points": 1
+  },
+  {
+    "id": 220,
+    "name": "Evil Dave's Big Day Out",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      2004
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 30
+      },
+      {
+        "skill": "Cooking",
+        "level": 30
+      },
+      {
+        "skill": "Herblore",
+        "level": 30
+      },
+      {
+        "skill": "Magic",
+        "level": 30
+      }
+    ],
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Herblore",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 20000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "name": "Pieces of Hate",
+    "difficulty": "Master",
+    "quest_requirements": [
+      49,
+      175
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Construction",
+        "level": 81
+      },
+      {
+        "skill": "Firemaking",
+        "level": 82
+      },
+      {
+        "skill": "Agility",
+        "level": 83
+      },
+      {
+        "skill": "Thieving",
+        "level": 85
+      }
+    ],
+    "combat_requirement": 110,
+    "quest_points": 2,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Agility",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Construction",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Firemaking",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Thieving",
+        "amount": 50000
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "name": "You Are It",
+    "difficulty": "Intermediate",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Claimable",
+        "skills": "Dungeoneering",
+        "amount": 50000,
+        "source": "the five fragments of Charos' necklace",
+        "minimum_level": 50
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "name": "The Needle Skips",
+    "difficulty": "Novice",
+    "quest_points": 1
+  },
+  {
+    "id": 224,
+    "name": "Violet is Blue",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 1000
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 1000
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Chef's Assistant",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      1
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 38
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "id": 4002,
+    "name": "Cheese and Biscuits",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      225,
+      191
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Cooking",
+        "level": 57
+      }
+    ],
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 8000
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "name": "Curse of the Black Stone",
+    "difficulty": "Master",
+    "quest_requirements": [
+      212
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 12
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 34
+      }
+    ],
+    "quest_points": 4
+  },
+  {
+    "id": 227,
+    "name": "Desperate Times",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      223,
+      222
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Mining",
+        "level": 50
+      },
+      {
+        "skill": "Smithing",
+        "level": 50
+      },
+      {
+        "skill": "Divination",
+        "level": 50
+      }
+    ],
+    "quest_points": 3
+  },
+  {
+    "id": 228,
+    "name": "Once Upon a Slime",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Cooking",
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Desperate Measures",
+    "difficulty": "Intermediate",
+    "quest_requirements": [
+      227
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 50
+      },
+      {
+        "skill": "Archaeology",
+        "level": 50
+      }
+    ],
+    "combat_requirement": 95,
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Archaeology",
+        "amount": 20000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Constitution,Magic,Ranged,Prayer",
+        "amount": 20000
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "name": "Violet is Blue Too",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      224
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 4000
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 4000
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Heartstealer",
+    "difficulty": "Novice",
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Claimable",
+        "skills": "Thieving",
+        "amount": 2500,
+        "minimum_level": 20,
+        "source": "Caelyn Kadaan"
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "name": "The Vault of Shadows",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      77
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Archaeology",
+        "level": 58
+      },
+      {
+        "skill": "Divination",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Azzanadra's Quest",
+    "difficulty": "Experienced",
+    "quest_requirements": [
+      1006
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 58
+      },
+      {
+        "skill": "Prayer",
+        "level": 58
+      },
+      {
+        "skill": "Divination",
+        "level": 70
+      },
+      {
+        "skill": "Archaeology",
+        "level": 58
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Archaeology",
+        "amount": 15000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 25000
+      },
+      {
+        "type": "Choice",
+        "skills": "All",
+        "amount": 10000
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "name": "Battle of the Monolith",
+    "difficulty": "Intermediate",
+    "skill_requirements": [
+      {
+        "skill": "Archaeology",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "name": "City of Senntisten",
+    "difficulty": "Master",
+    "quest_requirements": [
+      232,
+      1007
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 75
+      },
+      {
+        "skill": "Archaeology",
+        "level": 74
+      },
+      {
+        "skill": "Magic",
+        "level": 74
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Archaeology",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Slayer",
+        "amount": 50000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 50000
+      },
+      {
+        "type": "Choice",
+        "skills": "Attack,Strength,Defence,Constitution,Magic,Ranged,Prayer,Summoning",
+        "amount": 50000,
+        "minimum_level": 75
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Once Upon a Time in Gielinor",
+    "difficulty": "Novice",
+    "quest_points": 4
+  },
+  {
+    "id": 1008,
+    "name": "Eye of Het I",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      233
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 65
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "name": "Eye of Het II",
+    "difficulty": "Novice",
+    "quest_requirements": [
+      1008
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Extinction",
+    "difficulty": "Grandmaster",
+    "quest_requirements": [
+      1009,
+      229,
+      233
+    ],
+    "quest_points": 4,
+    "xp_rewards": [
+      {
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 175000,
+        "minimum_level": 75,
+        "source": "Vicendithas"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Twilight of the Gods",
+    "difficulty": "Master",
+    "quest_requirements": [
+      235,
+      199
+    ],
+    "skill_requirements": [
+      {
+        "skill": "Archaeology",
+        "level": 24
+      },
+      {
+        "skill": "Divination",
+        "level": 80
+      },
+      {
+        "skill": "Thieving",
+        "level": 60
+      }
+    ],
+    "quest_points": 3,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 30000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Magic",
+        "amount": 30000
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "name": "daughter of Chaos",
+    "difficulty": "Novice",
+    "skill_requirements": [
+      {
+        "skill": "Archaeology",
+        "level": 40
+      },
+      {
+        "skill": "Divination",
+        "level": 40
+      }
+    ],
+    "quest_points": 1,
+    "xp_rewards": [
+      {
+        "type": "Immediate",
+        "skills": "Divination",
+        "amount": 30000
+      },
+      {
+        "type": "Immediate",
+        "skills": "Archaeology",
+        "amount": 30000
+      }
+    ]
+  }
+]
