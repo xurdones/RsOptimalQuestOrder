@@ -5046,19 +5046,26 @@
       {
         "type": "Claimable",
         "skills": "Magic",
-        "amount": 10338,
-        "minimum_level": 73,
-        "source": "enchanting your broomstick with Baba Yaga"
-      },
-      {
-        "type": "Claimable",
-        "skills": "Magic",
         "amount": 14979,
         "minimum_level": 93,
         "source": "enchanting your broomstick with Kardia in the Underground Pass"
       }
     ]
-  },
+  },{
+  "id": 4003,
+  "name": "enchant your broomstick with Baba Yaga",
+  "difficulty": "Experienced",
+  "quest_requirements": [146, 108],
+  "level_requirements": [{
+    "skill": "Magic",
+    "level": 73
+  }],
+  "xp_rewards" : [{
+    "type": "Immediate",
+    "skills": "Magic",
+    "amount": 10338
+  }]
+},
   {
     "id": 1002,
     "name": "The Hunt for Surok",
@@ -9454,7 +9461,7 @@
   },
   {
     "id": 237,
-    "name": "daughter of Chaos",
+    "name": "Daughter of Chaos",
     "difficulty": "Novice",
     "skill_requirements": [
       {
