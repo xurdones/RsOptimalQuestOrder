@@ -54,7 +54,7 @@ class SkillSet(Counter):
                         current_stats,
                         Skills.CONSTITUTION,
                         Skills.DEFENCE)
-                    training_to_levels[higher], training_to_levels[lower] = SkillSet.__advances_levels_in_step(
+                    training_to_levels[higher], training_to_levels[lower] = SkillSet.__advance_levels_in_step(
                         current_stats,
                         higher,
                         level_req,
@@ -66,7 +66,7 @@ class SkillSet(Counter):
                         Skills.ATTACK,
                         Skills.STRENGTH
                     )
-                    training_to_levels[higher], training_to_levels[lower] = SkillSet.__advances_levels_in_step(
+                    training_to_levels[higher], training_to_levels[lower] = SkillSet.__advance_levels_in_step(
                         current_stats,
                         higher,
                         level_req,
@@ -74,28 +74,27 @@ class SkillSet(Counter):
                     )
                 else:
                     training_to_levels[skill] = Skills.xp_to_level(
-                        Skills.level_for_xp(current_stats[skill]) + level_req,
+                        min(Skills.level_for_xp(current_stats[skill]) + level_req, 99),
                         current_stats[skill]
                     )
 
             strategy = SkillSet.choose_training_strategy(training_to_levels)
             current_stats += strategy
             route += strategy
-            combat_level += 1
+            combat_level = Skills.calculate_combat_level({skill: Skills.level_for_xp(xp) for skill, xp in current_stats.items()})
         return route
 
-
     @staticmethod
-    def __advances_levels_in_step(current_stats: 'SkillSet', higher: Skills, level_req: int, lower: Skills) -> (int, int):
+    def __advance_levels_in_step(current_stats: 'SkillSet', higher: Skills, level_req: int, lower: Skills) -> (int, int):
         level_gap = Skills.level_for_xp(current_stats[higher]) - Skills.level_for_xp(current_stats[lower])
         levels_to_close_gap = min(level_gap, level_req)
         training_for_lower = Skills.xp_to_level(
-            Skills.level_for_xp(current_stats[lower]) + ceil(
-                levels_to_close_gap + max(level_req - level_gap, 0) / 2),
+            min(99, Skills.level_for_xp(current_stats[lower]) + ceil(
+                levels_to_close_gap + max(level_req - level_gap, 0) / 2)),
             current_stats[lower]
         )
         training_for_higher = Skills.xp_to_level(
-            Skills.level_for_xp(current_stats[higher]) + max(level_req - level_gap, 0) // 2,
+            min(99, Skills.level_for_xp(current_stats[higher]) + max(level_req - level_gap, 0) // 2),
             current_stats[higher]
         )
 
