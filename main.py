@@ -50,7 +50,7 @@ def get_next_lamp(player_skills: SkillSet, xp_gap: SkillSet, skill: Skills, rewa
     options = sorted(reward for reward in rewards if reward.is_claimable(player_skills, skill))
     if not options:
         return None
-    return min(options, key=lambda r: abs(r.amount - xp_gap[skill]))
+    return min(options, key=lambda r: abs(r.amount(player_skills, skill) - xp_gap[skill]))
 
 
 # noinspection PyShadowingNames
@@ -127,7 +127,7 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
                         while next_lamp := get_next_lamp(player_skills_copy, xp_gap, skill, hoarded_rewards_copy):
                             loop_flag = True
                             hoarded_rewards_copy.remove(next_lamp)
-                            reward = next_lamp.get_reward(skill_choice=skill)
+                            reward = next_lamp.get_reward(skill_choice=skill, player_skills=player_skills_copy)
                             xp_gap.subtract(reward)
                             player_skills_copy += reward
                             prospects[quest_id][1].append((next_lamp, skill))
@@ -137,7 +137,7 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
             choice = min(prospects, key=lambda p: prospects[p][0])
             for (reward, skill) in prospects[choice][1]:
                 hoarded_rewards.remove(reward)
-                player.skills += reward.get_reward(skill)
+                player.skills += reward.get_reward(skill, player.skills)
 
                 if isinstance(reward, ChoiceXpReward):
                     strategy[reward.quest_id].insert(0, (reward, skill))

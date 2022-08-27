@@ -7917,7 +7917,12 @@
     "id": 199,
     "name": "Broken Home",
     "difficulty": "Novice",
-    "quest_points": 1
+    "quest_points": 1,
+    "xp_rewards": [{
+      "type": "Prismatic",
+      "skills": "All",
+      "size": "Small"
+    }]
   },
   {
     "id": 200,
@@ -9393,7 +9398,12 @@
         "skill": "Agility",
         "level": 65
       }
-    ]
+    ],
+    "xp_rewards": [{
+      "type": "Prismatic",
+      "size": "Medium",
+      "skills": "All"
+    }]
   },
   {
     "id": 1039,
@@ -9401,7 +9411,12 @@
     "difficulty": "Novice",
     "quest_requirements": [
       1038
-    ]
+    ],
+    "xp_rewards": [{
+      "type": "Prismatic",
+      "size": "Medium",
+      "skills": "All"
+    }]
   },
   {
     "id": 235,
@@ -10052,5 +10067,29 @@
     "skills": "Magic",
     "amount": 1000
   }]
+},{
+  "id": 1040,
+  "name": "Aftermath",
+  "difficulty": "Experienced",
+  "quest_requirements": [236],
+  "xp_rewards": [{
+    "type": "Prismatic",
+    "size": "Small",
+    "skills": "All"
+  }]
+},{
+  "id": 1041,
+  "name": "Benedict's World Tour",
+  "difficulty": "Intermediate",
+  "quest_requirements": [10],
+  "xp_rewards": [{
+      "type": "Prismatic",
+      "size": "Large",
+      "skills": "All"
+    },{
+      "type": "Prismatic",
+      "size": "Large",
+      "skills": "All"
+    }]
 }
 ]
