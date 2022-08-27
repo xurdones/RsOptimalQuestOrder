@@ -168,7 +168,7 @@ if __name__ == '__main__':
     strategy = optimal_search(player, quests)
 
     for quest_id, rewards in strategy.items():
-        print(f'Complete {quests[quest_id].name}')
+        print(f'Complete {quests[quest_id].name} (quest {quest_id})')
         for reward in rewards:
             if isinstance(reward, tuple):
                 print(f'Use {reward[0]} on {reward[1]}')
