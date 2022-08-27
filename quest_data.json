@@ -1250,6 +1250,81 @@
         "type": "Choice",
         "skills": "All",
         "amount": 100
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
+      },{
+        "type": "ClaimableChoice",
+        "skills": "All",
+        "amount": 180,
+        "source": "the Ambush Commander after completing a supply run"
       }
     ]
   },
@@ -7694,9 +7769,10 @@
     "difficulty": "Grandmaster",
     "quest_requirements": [
       195,
-      159
+      159,
+      177
     ],
-    "xp_requirements": [
+    "xp_rewards": [
       {
         "type": "ClaimableChoice",
         "skills": "Attack,Strength,Defence,Constitution,Ranged,Magic",
@@ -7717,6 +7793,11 @@
         "amount": 75000,
         "minimum_level": 80,
         "source": "Azzanadra in the Temple of Senntisten"
+      },{
+        "type": "Prismatic",
+        "skills": "All",
+        "size": "Large",
+        "source": "Ali the Wise in Nardah"
       }
     ]
   },
@@ -8062,6 +8143,24 @@
         "type": "Choice",
         "skills": "Attack,Strength,Defence,Magic,Ranged,Constitution",
         "amount": 1500
+      },{
+        "type": "Tiered",
+        "skills": "All",
+        "minimum_level": 50,
+        "amount": 7000,
+        "source": "Tier 1 chest in Zamorak's Hideout"
+      },{
+        "type": "Tiered",
+        "skills": "All",
+        "minimum_level": 70,
+        "amount": 50000,
+        "source": "Tier 2 chest in Zamorak's Hideout"
+      },{
+        "type": "Tiered",
+        "skills": "All",
+        "minimum_level": 90,
+        "amount": 96000,
+        "source": "Tier 3 chest in Zamorak's Hideout"
       }
     ]
   },
@@ -10164,5 +10263,94 @@
       "size": "Large",
       "skills": "All"
     }]
+},{
+  "id": 4008,
+  "name": "Claiming Azzanadra's Heart",
+  "difficulty": "Intermediate",
+  "quest_requirements": [200, 159],
+  "xp_rewards": [{
+    "type": "Prismatic",
+    "size": "Medium",
+    "skills": "All",
+    "source": "Azzanadra in the Temple of Senntisten"
+  }]
+},{
+  "id": 4009,
+  "name": "Philipe's Lamp 1",
+  "difficulty": "Novice",
+  "quest_requirements": [38, 185],
+  "qp_requirement": 50,
+  "xp_rewards": [{
+    "type": "Choice",
+    "skills": "All",
+    "minimum_level": 30,
+    "amount": 2000
+  }]
+},{
+  "id": 4010,
+  "name": "Philipe's Lamp 2",
+  "difficulty": "Intermediate",
+  "quest_requirements": [4009, 73],
+  "qp_requirement": 100,
+  "xp_rewards": [{
+    "type": "Choice",
+    "skills": "All",
+    "minimum_level": 40,
+    "amount": 5000
+  }]
+},{
+  "id": 4011,
+  "name": "Philipe's Lamp 3",
+  "difficulty": "Experienced",
+  "quest_requirements": [4010, 41],
+  "qp_requirement": 150,
+  "xp_rewards": [{
+    "type": "Choice",
+    "skills": "All",
+    "minimum_level": 40,
+    "amount": 5000
+  }]
+},{
+  "id": 4012,
+  "name": "Philipe's Lamp 4",
+  "difficulty": "Experienced",
+  "quest_requirements": [4011],
+  "qp_requirement": 200,
+  "xp_rewards": [{
+    "type": "Choice",
+    "skills": "All",
+    "minimum_level": 55,
+    "amount": 10000
+  }]
+},{
+  "id": 4013,
+  "name": "Philipe's Lamp 5",
+  "difficulty": "Experienced",
+  "quest_requirements": [4012],
+  "qp_requirement": 250,
+  "xp_rewards": [{
+    "type": "Choice",
+    "skills": "All",
+    "minimum_level": 55,
+    "amount": 10000
+  }]
+},{
+  "id": 1042,
+  "name": "Tales of Nomad",
+  "difficulty": "Master",
+  "quest_requirements": [208],
+  "xp_rewards": [{
+    "type": "Choice",
+    "skills": "All",
+    "amount": 1500
+  },{
+    "type": "Choice",
+    "skills": "All",
+    "amount": 1500
+  },{
+    "type": "Choice",
+    "skills": "All",
+    "amount": 1500
+  }]
 }
 ]
