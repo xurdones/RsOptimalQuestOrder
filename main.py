@@ -4,7 +4,7 @@ from typing import Optional
 
 from model import Player, SkillSet, Skills
 from model.quest import Quest, Difficulty
-from model.rewards import XpReward, ClaimableXpReward, ChoiceXpReward
+from model.rewards import XpReward, ClaimableXpReward, ChoiceXpReward, ClaimableChoiceXpReward
 from util import partition, MyOrderedDict
 
 
@@ -139,10 +139,10 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
                 hoarded_rewards.remove(reward)
                 player.skills += reward.get_reward(skill, player.skills)
 
-                if isinstance(reward, ChoiceXpReward):
-                    strategy[reward.quest_id].insert(0, (reward, skill))
-                elif isinstance(reward, ClaimableXpReward):
+                if isinstance(reward, ClaimableXpReward) or isinstance(reward, ClaimableChoiceXpReward):
                     strategy[strategy.last()].append((reward, skill))
+                elif isinstance(reward, ChoiceXpReward):
+                    strategy[reward.quest_id].insert(0, (reward, skill))
 
             training_goal = quest_list[choice].skill_prereqs - player.skills
             if training_goal:
