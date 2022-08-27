@@ -48,6 +48,14 @@ class XpReward(metaclass=ABCMeta):
                 minimum_level=data.get('minimum_level', 1),
                 source=data['source']
             )
+        elif data['type'] == 'Tiered':
+            return ClaimableChoiceXpReward(
+                quest_id=quest_id,
+                amount=data['amount'],
+                skills=XpReward.parse_skills(data['skills']),
+                minimum_level=data.get('minimum_level', 1),
+                source=data['source']
+            )
         elif data['type'] == 'Claimable':
             return ClaimableXpReward(
                 quest_id=quest_id,
@@ -131,6 +139,15 @@ class ClaimableChoiceXpReward(ChoiceXpReward):
 
     def __str__(self):
         return f'{self.amount()} xp reward from {self.claim_source} (quest {self.quest_id})'
+
+
+class TieredXpReward(ClaimableChoiceXpReward):
+    def __init__(self, quest_id: int, amount: int, skills: Skills, minimum_level: int, source: str):
+        super(TieredXpReward, self).__init__(quest_id, amount, skills, minimum_level=0, source=source)
+        self.tier_requirement = Skills.min_xp_for_level(minimum_level)
+
+    def is_claimable(self, player_skills: SkillSet, *args, **kwargs):
+        return all(p_skill >= self.tier_requirement for p_skill, p_value in player_skills if p_skill in self.skills)
 
 
 class PrismaticXpReward(ChoiceXpReward):

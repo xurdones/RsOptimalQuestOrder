@@ -7922,6 +7922,60 @@
       "type": "Prismatic",
       "skills": "All",
       "size": "Small"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 10,
+      "amount": 1000,
+      "source": "Tier 1 chest in Gulvas Manor"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 20,
+      "amount": 2000,
+      "source": "Tier 2 chest in Gulvas Manor"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 30,
+      "amount": 4000,
+      "source": "Tier 3 chest in Gulvas Manor"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 40,
+      "amount": 8000,
+      "source": "Tier 4 chest in Gulvas Manor"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 50,
+      "amount": 16000,
+      "source": "Tier 5 chest in Gulvas Manor"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 60,
+      "amount": 32000,
+      "source": "Tier 6 chest in Gulvas Manor"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 70,
+      "amount": 48000,
+      "source": "Tier 7 chest in Gulvas Manor"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 80,
+      "amount": 64000,
+      "source": "Tier 8 chest in Gulvas Manor"
+    },{
+      "type": "Tiered",
+      "skills": "All",
+      "minimum_level": 90,
+      "amount": 96000,
+      "source": "Tier 9 chest in Gulvas Manor"
     }]
   },
   {
@@ -8694,7 +8748,26 @@
     "name": "Gower Quest",
     "difficulty": "Experienced",
     "qp_requirement": 34,
-    "quest_points": 1
+    "quest_points": 1,
+    "xp_rewards": [{
+      "type": "Tiered",
+      "skills": "Attack,Defence,Strength,Ranged,Prayer,Magic,Constitution,Crafting,Mining,Smithing,Fishing,Cooking,Firemaking,Woodcutting,Runecrafting,Dungeoneering,Fletching",
+      "minimum_level": 10,
+      "amount": 250,
+      "source": "Ian Gower"
+    },{
+      "type": "Tiered",
+      "skills": "Attack,Defence,Strength,Ranged,Prayer,Magic,Constitution,Crafting,Mining,Smithing,Fishing,Cooking,Firemaking,Woodcutting,Runecrafting,Dungeoneering,Fletching",
+      "minimum_level": 30,
+      "amount": 1500,
+      "source": "Paul Gower"
+    },{
+      "type": "Tiered",
+      "skills": "Attack,Defence,Strength,Ranged,Prayer,Magic,Constitution,Crafting,Mining,Smithing,Fishing,Cooking,Firemaking,Woodcutting,Runecrafting,Dungeoneering,Fletching",
+      "minimum_level": 50,
+      "amount": 12000,
+      "source": "Andrew Gower"
+    }]
   },
   {
     "id": 212,
