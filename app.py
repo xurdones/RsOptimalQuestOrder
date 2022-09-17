@@ -1,4 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
+
+import service
 
 app = Flask(__name__)
 
@@ -10,4 +12,5 @@ def home():
 
 @app.route('/result', methods=['POST'])
 def result():
-    raise NotImplementedError
+    result = service.get_optimal_quest_strategy()
+    return jsonify(result)

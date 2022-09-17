@@ -1,11 +1,14 @@
 import json
 from collections import OrderedDict
+from pathlib import Path
 from typing import Optional
 
-from model import Player, SkillSet, Skills
-from model.quest import Quest, Difficulty
-from model.rewards import XpReward, ClaimableXpReward, ChoiceXpReward, ClaimableChoiceXpReward
-from util import partition, MyOrderedDict
+from .model import Player, SkillSet, Skills
+from .model.quest import Quest, Difficulty
+from .model.rewards import XpReward, ClaimableXpReward, ChoiceXpReward, ClaimableChoiceXpReward
+from .util import partition, MyOrderedDict
+
+__all__ = ['get_optimal_quest_strategy']
 
 
 def load_quest_data(filename) -> dict[int, Quest]:
@@ -160,19 +163,11 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
     return strategy
 
 
-if __name__ == '__main__':
-    data_file = 'quest_data.json'
+def get_optimal_quest_strategy():
+    data_file = Path(__file__).resolve().parent / 'quest_data.json'
     quests = load_quest_data(data_file)
 
     player = Player()
     strategy = optimal_search(player, quests)
 
-    for quest_id, rewards in strategy.items():
-        print(f'Complete {quests[quest_id].name} (quest {quest_id})')
-        for reward in rewards:
-            if isinstance(reward, tuple):
-                print(f'Use {reward[0]} on {reward[1]}')
-            elif isinstance(reward, XpReward):
-                print(f'Claim {reward}')
-            else:
-                print(reward)
+    return strategy
