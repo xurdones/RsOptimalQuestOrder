@@ -6,7 +6,8 @@ from typing import Optional
 from .model import Player, SkillSet, Skills
 from .model.quest import Quest, Difficulty
 from .model.rewards import XpReward, ClaimableXpReward, ChoiceXpReward, ClaimableChoiceXpReward, ClaimedChoiceXpReward
-from .util import partition, MyOrderedDict
+from .model.strategy import QuestStrategy
+from .util import partition
 
 __all__ = ['get_optimal_quest_strategy']
 
@@ -57,8 +58,8 @@ def get_next_lamp(player_skills: SkillSet, xp_gap: SkillSet, skill: Skills, rewa
 
 
 # noinspection PyShadowingNames
-def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[int, [XpReward]]:
-    strategy = MyOrderedDict()
+def optimal_search(player: Player, quest_list: dict[int, Quest]) -> QuestStrategy:
+    strategy = QuestStrategy()
 
     # Set of all quests with no incoming edges, i.e. we satisfy all quest pre-reqs
     # Sorted by the quest ordering, which sorts on (skill requirements, combat requirement, difficulty)
@@ -80,7 +81,7 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
 
         for reward in to_claim:
             player.skills += reward.get_reward()
-            strategy[strategy.last()].append(reward)
+            strategy.add_reward(reward)
 
         hoarded_rewards = set(to_hoard)
 
@@ -94,7 +95,7 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
                 next_quest.quest_points,
                 next_quest.xp_rewards
             )
-            strategy[next_quest.id] = claimed_rewards
+            strategy.add_quest(next_quest, claimed_rewards)
             hoarded_rewards.update(unclaimed_rewards)
 
             # We're looking for every quest that has this one as a prereq
@@ -143,14 +144,14 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
                 player.skills += reward.reward.get_reward(reward.skill_choice, player.skills)
 
                 if isinstance(reward.reward, ClaimableXpReward) or isinstance(reward.reward, ClaimableChoiceXpReward):
-                    strategy[strategy.last()].append(reward)
+                    strategy.add_reward(reward)
                 elif isinstance(reward.reward, ChoiceXpReward):
-                    strategy[reward.reward.quest_id].insert(0, reward)
+                    strategy.push_reward(reward, reward.reward.quest_id)
 
             training_goal = quest_list[choice].skill_prereqs - player.skills
             if training_goal:
                 player.skills += training_goal
-                strategy[strategy.last()] += [f'Train {skill} to level {Skills.level_for_xp(quest_list[choice].skill_prereqs[skill])} (+{training_goal[skill]} xp)' for skill in training_goal]
+                strategy.add_rewards([f'Train {skill} to level {Skills.level_for_xp(quest_list[choice].skill_prereqs[skill])} (+{training_goal[skill]} xp)' for skill in training_goal])
 
             if player.combat_level < quest_list[choice].combat_requirement:
                 combat_training_strategy = SkillSet.optimal_route_to_combat_level(
@@ -159,7 +160,7 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
                 )
                 player.skills += combat_training_strategy
                 for skill, xp in combat_training_strategy.items():
-                    strategy[strategy.last()].append(f'Train {skill} to level {Skills.level_for_xp(player.skills[skill])} (+{xp} xp)')
+                    strategy.add_reward(f'Train {skill} to level {Skills.level_for_xp(player.skills[skill])} (+{xp} xp)')
     return strategy
 
 
