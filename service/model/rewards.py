@@ -129,7 +129,7 @@ class ClaimableXpReward(ImmediateXpReward):
         return self.minimum_xp <= player_skills[self.skills]
 
     def __str__(self):
-        return f'{self.amount()} {self.skills} xp from {self.claim_source} (quest {self.quest_id})'
+        return f'Claim {self.amount()} {self.skills} xp from {self.claim_source} (quest {self.quest_id})'
 
 
 class ClaimableChoiceXpReward(ChoiceXpReward):
@@ -189,3 +189,12 @@ class PrismaticXpReward(ChoiceXpReward):
 
     def __str__(self):
         return f'{self.size} xp lamp'
+
+
+class ClaimedChoiceXpReward:
+    def __init__(self, reward: XpReward, skill_choice: Skills):
+        self.reward = reward
+        self.skill_choice = skill_choice
+
+    def __str__(self):
+        return f'Use {self.reward} on {self.skill_choice}'

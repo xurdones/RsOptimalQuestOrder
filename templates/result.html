@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul class="list-group">
+    {% for quest_id, rewards in strategy.items() %}
+        <li class="list-group-item">Complete {{ quest_id }}</li>
+        {% for reward in rewards %}
+            <li class="list-group-item">{{ reward }}</li>
+        {% endfor %}
+    {% endfor %}
+</ul>
+{% endblock %}
