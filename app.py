@@ -12,5 +12,5 @@ def home():
 
 @app.route('/result', methods=['POST'])
 def result():
-    result = service.get_optimal_quest_strategy()
-    return jsonify(result)
+    strategy = service.get_optimal_quest_strategy()
+    return render_template('result.html', strategy=strategy)

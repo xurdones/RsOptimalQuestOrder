@@ -5,7 +5,7 @@ from typing import Optional
 
 from .model import Player, SkillSet, Skills
 from .model.quest import Quest, Difficulty
-from .model.rewards import XpReward, ClaimableXpReward, ChoiceXpReward, ClaimableChoiceXpReward
+from .model.rewards import XpReward, ClaimableXpReward, ChoiceXpReward, ClaimableChoiceXpReward, ClaimedChoiceXpReward
 from .util import partition, MyOrderedDict
 
 __all__ = ['get_optimal_quest_strategy']
@@ -133,19 +133,19 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> OrderedDict[
                             reward = next_lamp.get_reward(skill_choice=skill, player_skills=player_skills_copy)
                             xp_gap.subtract(reward)
                             player_skills_copy += reward
-                            prospects[quest_id][1].append((next_lamp, skill))
+                            prospects[quest_id][1].append(ClaimedChoiceXpReward(next_lamp, skill))
                         loop_flag = False
 
             # At this point we take the option closest to zero
             choice = min(prospects, key=lambda p: prospects[p][0])
-            for (reward, skill) in prospects[choice][1]:
-                hoarded_rewards.remove(reward)
-                player.skills += reward.get_reward(skill, player.skills)
+            for reward in prospects[choice][1]:
+                hoarded_rewards.remove(reward.reward)
+                player.skills += reward.reward.get_reward(reward.skill_choice, player.skills)
 
-                if isinstance(reward, ClaimableXpReward) or isinstance(reward, ClaimableChoiceXpReward):
-                    strategy[strategy.last()].append((reward, skill))
-                elif isinstance(reward, ChoiceXpReward):
-                    strategy[reward.quest_id].insert(0, (reward, skill))
+                if isinstance(reward.reward, ClaimableXpReward) or isinstance(reward.reward, ClaimableChoiceXpReward):
+                    strategy[strategy.last()].append(reward)
+                elif isinstance(reward.reward, ChoiceXpReward):
+                    strategy[reward.reward.quest_id].insert(0, reward)
 
             training_goal = quest_list[choice].skill_prereqs - player.skills
             if training_goal:
