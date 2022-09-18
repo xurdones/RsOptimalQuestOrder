@@ -2,9 +2,9 @@
 
 {% block content %}
 <ul class="list-group">
-    {% for quest_id, rewards in strategy.items() %}
-        <li class="list-group-item">Complete {{ quest_id }}</li>
-        {% for reward in rewards %}
+    {% for quest_id in strategy %}
+        <li class="list-group-item">Complete {{ strategy[quest_id].quest.name }}</li>
+        {% for reward in strategy[quest_id].rewards %}
             <li class="list-group-item">{{ reward }}</li>
         {% endfor %}
     {% endfor %}
