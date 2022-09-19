@@ -1,10 +1,11 @@
+import json
 from enum import Enum
 
 from .player import Player
 from .skillset import SkillSet
 from .rewards import XpReward
 
-__all__ = ['Quest', 'Difficulty']
+__all__ = ['Quest', 'Difficulty', 'load_quest_data']
 
 
 class OrderedEnum(Enum):
@@ -56,8 +57,27 @@ class Quest:
 
     def satisfies_requirements(self, player: Player):
         return all([
+            self.id not in player.quests_completed,
             self.skill_prereqs <= player.skills,
             self.combat_requirement <= player.combat_level,
             self.qp_requirement <= player.quest_points,
             self.quest_prereqs <= player.quests_completed
         ])
+
+
+def load_quest_data(filename) -> dict[int, Quest]:
+    quest_list = {}
+    with open(filename) as f:
+        data = json.load(f)
+
+    for quest in data:
+        if quest["id"] in quest_list:
+            raise ValueError
+        quest_list[quest["id"]] = Quest(id=quest["id"], name=quest["name"], difficulty=Difficulty[quest["difficulty"].upper()],
+                                        combat_requirement=quest.get("combat_requirement", 0),
+                                        qp_requirement=quest.get("qp_requirement", 0),
+                                        quest_reqs=quest.get("quest_requirements", []),
+                                        skill_reqs=SkillSet.from_json(quest.get("skill_requirements", [])),
+                                        quest_points=quest.get("quest_points", 0),
+                                        rewards=[XpReward.from_json(reward, quest["id"]) for reward in quest.get("xp_rewards", [])])
+    return quest_list
