@@ -1,33 +1,13 @@
-import json
-from collections import OrderedDict
 from pathlib import Path
 from typing import Optional
 
 from .model import Player, SkillSet, Skills
-from .model.quest import Quest, Difficulty
+from .model.quest import Quest, load_quest_data
 from .model.rewards import XpReward, ClaimableXpReward, ChoiceXpReward, ClaimableChoiceXpReward, ClaimedChoiceXpReward
 from .model.strategy import QuestStrategy
 from .util import partition
 
-__all__ = ['get_optimal_quest_strategy']
-
-
-def load_quest_data(filename) -> dict[int, Quest]:
-    quest_list = {}
-    with open(filename) as f:
-        data = json.load(f)
-
-    for quest in data:
-        if quest["id"] in quest_list:
-            raise ValueError
-        quest_list[quest["id"]] = Quest(id=quest["id"], name=quest["name"], difficulty=Difficulty[quest["difficulty"].upper()],
-                                        combat_requirement=quest.get("combat_requirement", 0),
-                                        qp_requirement=quest.get("qp_requirement", 0),
-                                        quest_reqs=quest.get("quest_requirements", []),
-                                        skill_reqs=SkillSet.from_json(quest.get("skill_requirements", [])),
-                                        quest_points=quest.get("quest_points", 0),
-                                        rewards=[XpReward.from_json(reward, quest["id"]) for reward in quest.get("xp_rewards", [])])
-    return quest_list
+__all__ = ['get_optimal_quest_strategy', 'get_quest_data']
 
 
 def choose_next_quest(shell: [int], player: Player, quest_list: [Quest]) -> Optional[int]:
@@ -63,7 +43,7 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> QuestStrateg
 
     # Set of all quests with no incoming edges, i.e. we satisfy all quest pre-reqs
     # Sorted by the quest ordering, which sorts on (skill requirements, combat requirement, difficulty)
-    shell = [q for q in quest_list if not quest_list[q].quest_prereqs]
+    shell = [q for q in quest_list if not quest_list[q].quest_prereqs and q not in player.quests_completed]
 
     postreq_relation = build_quest_postreqs(quest_list)
     hoarded_rewards = set()
@@ -164,11 +144,18 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> QuestStrateg
     return strategy
 
 
-def get_optimal_quest_strategy():
-    data_file = Path(__file__).resolve().parent / 'quest_data.json'
-    quests = load_quest_data(data_file)
+def get_optimal_quest_strategy(initial_quests: [int] = None):
+    quests = get_quest_data()
 
     player = Player()
+    if initial_quests:
+        player.quests_completed = set(initial_quests)
     strategy = optimal_search(player, quests)
 
     return strategy
+
+
+def get_quest_data() -> dict[int, Quest]:
+    data_file = Path(__file__).resolve().parent / 'quest_data.json'
+    quests = load_quest_data(data_file)
+    return quests

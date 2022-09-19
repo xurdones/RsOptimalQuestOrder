@@ -1,7 +1,14 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<p>Check everything you've already completed</p>
 <form method="post" action="{{ url_for('result') }}">
+    {% for quest_id in quests %}
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="quest_{{ quest_id }}_complete" name="quest_{{ quest_id }}_complete" value="{{ quest_id }}" />
+      <label class="form-check-label" for="quest_{{ quest_id }}_complete">{{ quests[quest_id].name }}</label>
+    </div>
+    {% endfor %}
     <input type="submit" class="btn btn-primary btn-lg" value="Get Started" />
 </form>
 {% endblock %}
