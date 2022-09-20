@@ -1,0 +1,17 @@
+# RsOptimalQuestOrder
+
+RsOptimalQuestOrder is a web application designed to generate an optimal path to getting a quest point cape on Runescape3. Optimality is determined using the following metrics:
+
+1. Minimum amount of training done outside of quest rewards, including combat training
+2. Minimal travel time between quests (TODO)
+
+# Installation
+1. `/path/to/python3 -m venv /path/to/virtual/environment`
+2. `/path/to/virtual/environment/bin/activate`
+3. `pip install -r requirements.txt`
+4. `flask --debug run`
+
+# License
+&copy; Xurdones. This work is licensed under a [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. See [LICENSE](https://github.com/xurdones/RsOptimalQuestOrder/blob/master/LICENSE) for full terms and conditions.
+
+Created using intellectual property belonging to Jagex Limited under the terms of [Jagex's Fan Content Policy](https://www.jagex.com/en-GB/terms/fancontentpolicy). This content is not endorsed by or affiliated with Jagex.
