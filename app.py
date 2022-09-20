@@ -10,49 +10,19 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     quests = service.get_quest_data()
-    return render_template('index.html', quests=quests)
+    return render_template('index.html', quests=quests, skills=Skills)
 
 
 def parse_initial_stats(form_data: ImmutableMultiDict[str, str]):
-    result = {
-        'Attack': 0,
-        'Strength': 0,
-        'Defence': 0,
-        'Ranged': 0,
-        'Prayer': 0,
-        'Magic': 0,
-        'Runecrafting': 0,
-        'Construction': 0,
-        'Dungeoneering': 0,
-        'Archaeology': 0,
-        'Constitution': 0,
-        'Agility': 0,
-        'Herblore': 0,
-        'Thieving': 0,
-        'Crafting': 0,
-        'Fletching': 0,
-        'Slayer': 0,
-        'Hunter': 0,
-        'Divination': 0,
-        'Mining': 0,
-        'Smithing': 0,
-        'Fishing': 0,
-        'Cooking': 0,
-        'Firemaking': 0,
-        'Woodcutting': 0,
-        'Farming': 0,
-        'Summoning': 0
-    }
+    result = SkillSet()
 
     for skill in result:
-        type = form_data.get(f'skill{skill}Type', None)
-        value = form_data.get(f'skill{skill}Value', '0')
-        if not value:
-            value = '0'
-        if type == 'xp':
-            result[skill] = int(value)
-        elif type == 'level':
-            result[skill] = Skills.min_xp_for_level(int(value))
+        type = form_data.get(f'skill{str(skill)}Type', None)
+        value = form_data.get(f'skill{str(skill)}Value', '0')
+        value = int(value) if value else 0
+        if type == 'level':
+            value = Skills.min_xp_for_level(int(value))
+        result[skill] = max(result[skill], value)
 
     return result
 
