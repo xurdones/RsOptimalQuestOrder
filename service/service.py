@@ -144,10 +144,10 @@ def optimal_search(player: Player, quest_list: dict[int, Quest]) -> QuestStrateg
     return strategy
 
 
-def get_optimal_quest_strategy(initial_quests: [int] = None):
+def get_optimal_quest_strategy(initial_quests: [int] = None, initial_stats: dict[str, int] = None):
     quests = get_quest_data()
 
-    player = Player()
+    player = Player({Skills[skill_name.upper()]: skill_xp for skill_name, skill_xp in initial_stats.items()})
     if initial_quests:
         player.quests_completed = set(initial_quests)
     strategy = optimal_search(player, quests)

@@ -1,0 +1,11 @@
+{% macro skill_input(skill) %}
+<div class="input-group mb-3">
+   <input type="number" name="skill{{ skill }}Value" class="form-control" placeholder="Enter your current {{ skill }} xp" aria-label="{{ skill }} XP value" min="0" max="200000000" />
+    <div class="btn-group" role="group">
+        <input type="radio" class="btn-check" name="skill{{ skill }}Type" id="skill{{ skill }}Xp" value="xp" autocomplete="off" checked>
+        <label class="btn btn-outline-secondary" for="skill{{ skill }}Xp">XP</label>
+        <input type="radio" class="btn-check" name="skill{{ skill }}Type" id="skill{{ skill }}Level" value="level" autocomplete="off">
+        <label class="btn btn-outline-secondary" for="skill{{ skill }}Level">Level</label>
+    </div>
+</div>
+{% endmacro %}
