@@ -6,8 +6,9 @@ from .skillset import SkillSet
 
 
 class Player:
-    def __init__(self, initial_stats: dict[Skills, int] = None):
-        self.skills = SkillSet(initial_stats)
+    def __init__(self, initial_stats: SkillSet = None):
+        initial_stats = initial_stats or SkillSet()
+        self.skills = initial_stats
         self.quest_points = 1
         self.quests_completed = set()
         self._explicit_combat_level = 1

@@ -13,34 +13,9 @@
             <div id="skillSelectCollapse" class="accordion-collapse collapse show" aria-labelledby="skillSelectHeading" data-bs-parent="#questFormAccordion">
                 <div class="accordion-body">
                     <div class="row row-cols-3">
-                        <div class="col">{{ skill_input('Attack') }}</div>
-                        <div class="col">{{ skill_input('Constitution') }}</div>
-                        <div class="col">{{ skill_input('Mining') }}</div>
-                        <div class="col">{{ skill_input('Strength') }}</div>
-                        <div class="col">{{ skill_input('Agility') }}</div>
-                        <div class="col">{{ skill_input('Smithing') }}</div>
-                        <div class="col">{{ skill_input('Defence') }}</div>
-                        <div class="col">{{ skill_input('Herblore') }}</div>
-                        <div class="col">{{ skill_input('Fishing') }}</div>
-                        <div class="col">{{ skill_input('Ranged') }}</div>
-                        <div class="col">{{ skill_input('Thieving') }}</div>
-                        <div class="col">{{ skill_input('Cooking') }}</div>
-                        <div class="col">{{ skill_input('Prayer') }}</div>
-                        <div class="col">{{ skill_input('Crafting') }}</div>
-                        <div class="col">{{ skill_input('Firemaking') }}</div>
-                        <div class="col">{{ skill_input('Magic') }}</div>
-                        <div class="col">{{ skill_input('Fletching') }}</div>
-                        <div class="col">{{ skill_input('Woodcutting') }}</div>
-                        <div class="col">{{ skill_input('Runecrafting') }}</div>
-                        <div class="col">{{ skill_input('Slayer') }}</div>
-                        <div class="col">{{ skill_input('Farming') }}</div>
-                        <div class="col">{{ skill_input('Construction') }}</div>
-                        <div class="col">{{ skill_input('Hunter') }}</div>
-                        <div class="col">{{ skill_input('Summoning') }}</div>
-                        <div class="col">{{ skill_input('Dungeoneering') }}</div>
-                        <div class="col">{{ skill_input('Divination') }}</div>
-                        <div class="col">{{ skill_input('Invention') }}</div>
-                        <div class="col">{{ skill_input('Archaeology') }}</div>
+                        {% for skill in skills %}
+                        <div class="col">{{ skill_input(skill) }}</div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -54,12 +29,16 @@
             <div id="questSelectCollapse" class="accordion-collapse collapse" aria-labelledby="questSelectHeading" data-bs-parent="#questFormAccordion">
                 <div class="accordion-body">
                     <p>Check everything you've already completed</p>
-                    {% for quest_id in quests %}
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="quest_{{ quest_id }}_complete" name="quest_{{ quest_id }}_complete" value="{{ quest_id }}" />
-                      <label class="form-check-label" for="quest_{{ quest_id }}_complete">{{ quests[quest_id].name }}</label>
+                    <div class="row row-cols-4">
+                        {% for quest_id in quests %}
+                        <div class="col">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="quest_{{ quest_id }}_complete" name="quest_{{ quest_id }}_complete" value="{{ quest_id }}" />
+                              <label class="form-check-label" for="quest_{{ quest_id }}_complete">{{ quests[quest_id].name }}</label>
+                            </div>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
             </div>
         </div>
