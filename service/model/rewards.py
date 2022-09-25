@@ -155,6 +155,7 @@ class PrismaticXpReward(ChoiceXpReward):
         SMALL = 1
         MEDIUM = 2
         LARGE = 3
+        HUGE = 4
 
         def __lt__(self, other):
             if self.__class__ is other.__class__:
@@ -167,7 +168,8 @@ class PrismaticXpReward(ChoiceXpReward):
     PRISMATIC_REWARDS = {
         PrismaticSize.SMALL: lambda l: floor(-3E-6*l**5 + 6E-4*l**4 - 2.8E-2*l**3 + 0.5823*l**2+ 9.3594*l + 45.49),
         PrismaticSize.MEDIUM: lambda l: floor(-5E-6*l**5 + 1.1E-3*l**4 - 0.0559*l**3 + 1.1645*l**2 + 18.719*l + 90.981),
-        PrismaticSize.LARGE: lambda l: floor(-1E-5*l**5 + 2.3E-3*l**4 - 0.1118*l**3 + 2.329*l**2 + 37.437*l + 181.96)
+        PrismaticSize.LARGE: lambda l: floor(-1E-5*l**5 + 2.3E-3*l**4 - 0.1118*l**3 + 2.329*l**2 + 37.437*l + 181.96),
+        PrismaticSize.HUGE: lambda l: floor(-2E-5*l**5 + 4.6E-3*l**4 - 0.2237*l**3 + 4.6581*l**2 + 74.875*l + 363.92)
     }
 
     def __init__(self, quest_id: int, size: PrismaticSize, skills: Skills, minimum_level: int):

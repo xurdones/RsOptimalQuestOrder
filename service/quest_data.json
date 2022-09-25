@@ -9320,7 +9320,20 @@
         "level": 34
       }
     ],
-    "quest_points": 4
+    "quest_points": 4,
+    "xp_rewards": [{
+      "type": "Prismatic",
+      "size": "Huge",
+      "skills": "All"
+    },{
+      "type": "Prismatic",
+      "size": "Huge",
+      "skills": "All"
+    },{
+      "type": "Prismatic",
+      "size": "Huge",
+      "skills": "All"
+    }]
   },
   {
     "id": 227,
