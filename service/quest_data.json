@@ -7770,7 +7770,7 @@
     "quest_requirements": [
       195,
       159,
-      177
+      179
     ],
     "xp_rewards": [
       {
@@ -9234,7 +9234,12 @@
     "id": 223,
     "name": "The Needle Skips",
     "difficulty": "Novice",
-    "quest_points": 1
+    "quest_points": 1,
+    "xp_rewards": [{
+      "type": "Prismatic",
+      "size": "Small",
+      "skills": "All"
+    }]
   },
   {
     "id": 224,
